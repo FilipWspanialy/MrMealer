@@ -4,12 +4,46 @@
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:local="clr-namespace:MrMealer"
-    Shell.FlyoutBehavior="Disabled"
+    xmlns:views="clr-namespace:MrMealer.Views"
+    Shell.FlyoutBehavior="Flyout"
     Title="MrMealer">
+    
+    <FlyoutItem Title="Home" Icon="home.png">
+        <Tab>
+            <ShellContent 
+                Title="Home"
+                ContentTemplate="{DataTemplate local:MainPage}" 
+                Route="MainPage" />
+        </Tab>
+    </FlyoutItem>
+    
+    <FlyoutItem Title="Plan">
+        <Tab>
+            <ShellContent 
+                Title="Plan"/>
+        </Tab>
+    </FlyoutItem>
+    
+    <FlyoutItem Title="Shopping list">
+        <Tab>
+            <ShellContent 
+                Title="Shopping list" />
+        </Tab>
+    </FlyoutItem>
+    
+    <FlyoutItem Title="Recipes">
+        <Tab>
+            <ShellContent 
+                Title="Recipes"
+                ContentTemplate="{DataTemplate views:RecipesPage}" 
+                Route="MainPage" />
+        </Tab>
+    </FlyoutItem>
 
-    <ShellContent
-        Title="Home"
-        ContentTemplate="{DataTemplate local:MainPage}"
-        Route="MainPage" />
-
+    <FlyoutItem Title="User">
+        <Tab>
+            <ShellContent 
+            Title="User"/>
+        </Tab>
+    </FlyoutItem>
 </Shell>

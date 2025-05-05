@@ -3,32 +3,36 @@
   "WorkspaceRootPath": "D:\\source\\repos\\MrMealer\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{424F663C-2026-4787-BC81-78E294E9D7B6}|MrMealer\\MrMealer.csproj|d:\\source\\repos\\mrmealer\\mrmealer\\api\\apiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{424F663C-2026-4787-BC81-78E294E9D7B6}|MrMealer\\MrMealer.csproj|solutionrelative:mrmealer\\api\\apiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{424F663C-2026-4787-BC81-78E294E9D7B6}|MrMealer\\MrMealer.csproj|d:\\source\\repos\\mrmealer\\mrmealer\\views\\recipespage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{424F663C-2026-4787-BC81-78E294E9D7B6}|MrMealer\\MrMealer.csproj|solutionrelative:mrmealer\\views\\recipespage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{424F663C-2026-4787-BC81-78E294E9D7B6}|MrMealer\\MrMealer.csproj|d:\\source\\repos\\mrmealer\\mrmealer\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{424F663C-2026-4787-BC81-78E294E9D7B6}|MrMealer\\MrMealer.csproj|solutionrelative:mrmealer\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{424F663C-2026-4787-BC81-78E294E9D7B6}|MrMealer\\MrMealer.csproj|d:\\source\\repos\\mrmealer\\mrmealer\\views\\recipespage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{424F663C-2026-4787-BC81-78E294E9D7B6}|MrMealer\\MrMealer.csproj|solutionrelative:mrmealer\\views\\recipespage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{424F663C-2026-4787-BC81-78E294E9D7B6}|MrMealer\\MrMealer.csproj|d:\\source\\repos\\mrmealer\\mrmealer\\viewmodels\\recipesviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{424F663C-2026-4787-BC81-78E294E9D7B6}|MrMealer\\MrMealer.csproj|solutionrelative:mrmealer\\viewmodels\\recipesviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{424F663C-2026-4787-BC81-78E294E9D7B6}|MrMealer\\MrMealer.csproj|d:\\source\\repos\\mrmealer\\mrmealer\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{424F663C-2026-4787-BC81-78E294E9D7B6}|MrMealer\\MrMealer.csproj|solutionrelative:mrmealer\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{424F663C-2026-4787-BC81-78E294E9D7B6}|MrMealer\\MrMealer.csproj|d:\\source\\repos\\mrmealer\\mrmealer\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{424F663C-2026-4787-BC81-78E294E9D7B6}|MrMealer\\MrMealer.csproj|solutionrelative:mrmealer\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{424F663C-2026-4787-BC81-78E294E9D7B6}|MrMealer\\MrMealer.csproj|d:\\source\\repos\\mrmealer\\mrmealer\\models\\apimodels\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{424F663C-2026-4787-BC81-78E294E9D7B6}|MrMealer\\MrMealer.csproj|solutionrelative:mrmealer\\models\\apimodels\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{424F663C-2026-4787-BC81-78E294E9D7B6}|MrMealer\\MrMealer.csproj|d:\\source\\repos\\mrmealer\\mrmealer\\models\\apimodels\\recipe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{424F663C-2026-4787-BC81-78E294E9D7B6}|MrMealer\\MrMealer.csproj|solutionrelative:mrmealer\\models\\apimodels\\recipe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{424F663C-2026-4787-BC81-78E294E9D7B6}|MrMealer\\MrMealer.csproj|d:\\source\\repos\\mrmealer\\mrmealer\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{424F663C-2026-4787-BC81-78E294E9D7B6}|MrMealer\\MrMealer.csproj|solutionrelative:mrmealer\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{424F663C-2026-4787-BC81-78E294E9D7B6}|MrMealer\\MrMealer.csproj|d:\\source\\repos\\mrmealer\\mrmealer\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{424F663C-2026-4787-BC81-78E294E9D7B6}|MrMealer\\MrMealer.csproj|solutionrelative:mrmealer\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{424F663C-2026-4787-BC81-78E294E9D7B6}|MrMealer\\MrMealer.csproj|d:\\source\\repos\\mrmealer\\mrmealer\\api\\apiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{424F663C-2026-4787-BC81-78E294E9D7B6}|MrMealer\\MrMealer.csproj|solutionrelative:mrmealer\\api\\apiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,63 +42,63 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "MainPage.xaml",
-              "DocumentMoniker": "D:\\source\\repos\\MrMealer\\MrMealer\\MainPage.xaml",
-              "RelativeDocumentMoniker": "MrMealer\\MainPage.xaml",
-              "ToolTip": "D:\\source\\repos\\MrMealer\\MrMealer\\MainPage.xaml",
-              "RelativeToolTip": "MrMealer\\MainPage.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-05T16:48:31.014Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Recipe.cs",
-              "DocumentMoniker": "D:\\source\\repos\\MrMealer\\MrMealer\\Models\\ApiModels\\Recipe.cs",
-              "RelativeDocumentMoniker": "MrMealer\\Models\\ApiModels\\Recipe.cs",
-              "ToolTip": "D:\\source\\repos\\MrMealer\\MrMealer\\Models\\ApiModels\\Recipe.cs",
-              "RelativeToolTip": "MrMealer\\Models\\ApiModels\\Recipe.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-05T16:44:22.592Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "ApiResponse.cs",
-              "DocumentMoniker": "D:\\source\\repos\\MrMealer\\MrMealer\\Models\\ApiModels\\ApiResponse.cs",
-              "RelativeDocumentMoniker": "MrMealer\\Models\\ApiModels\\ApiResponse.cs",
-              "ToolTip": "D:\\source\\repos\\MrMealer\\MrMealer\\Models\\ApiModels\\ApiResponse.cs",
-              "RelativeToolTip": "MrMealer\\Models\\ApiModels\\ApiResponse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-05T16:42:08.564Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "MainPage.xaml.cs",
               "DocumentMoniker": "D:\\source\\repos\\MrMealer\\MrMealer\\MainPage.xaml.cs",
               "RelativeDocumentMoniker": "MrMealer\\MainPage.xaml.cs",
               "ToolTip": "D:\\source\\repos\\MrMealer\\MrMealer\\MainPage.xaml.cs",
               "RelativeToolTip": "MrMealer\\MainPage.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-05T16:37:52.179Z",
+              "WhenOpened": "2025-05-05T18:28:14.281Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RecipesPage.xaml.cs",
+              "DocumentMoniker": "D:\\source\\repos\\MrMealer\\MrMealer\\Views\\RecipesPage.xaml.cs",
+              "RelativeDocumentMoniker": "MrMealer\\Views\\RecipesPage.xaml.cs",
+              "ToolTip": "D:\\source\\repos\\MrMealer\\MrMealer\\Views\\RecipesPage.xaml.cs",
+              "RelativeToolTip": "MrMealer\\Views\\RecipesPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T18:28:10.465Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "RecipesPage.xaml",
+              "DocumentMoniker": "D:\\source\\repos\\MrMealer\\MrMealer\\Views\\RecipesPage.xaml",
+              "RelativeDocumentMoniker": "MrMealer\\Views\\RecipesPage.xaml",
+              "ToolTip": "D:\\source\\repos\\MrMealer\\MrMealer\\Views\\RecipesPage.xaml",
+              "RelativeToolTip": "MrMealer\\Views\\RecipesPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-05T18:26:51.374Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AppShell.xaml",
+              "DocumentMoniker": "D:\\source\\repos\\MrMealer\\MrMealer\\AppShell.xaml",
+              "RelativeDocumentMoniker": "MrMealer\\AppShell.xaml",
+              "ToolTip": "D:\\source\\repos\\MrMealer\\MrMealer\\AppShell.xaml",
+              "RelativeToolTip": "MrMealer\\AppShell.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-05T18:21:01.598Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "MauiProgram.cs",
               "DocumentMoniker": "D:\\source\\repos\\MrMealer\\MrMealer\\MauiProgram.cs",
               "RelativeDocumentMoniker": "MrMealer\\MauiProgram.cs",
@@ -102,33 +106,46 @@
               "RelativeToolTip": "MrMealer\\MauiProgram.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-05T16:37:50.308Z",
+              "WhenOpened": "2025-05-05T17:57:11.562Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "D:\\source\\repos\\MrMealer\\MrMealer\\MainPage.xaml",
+              "RelativeDocumentMoniker": "MrMealer\\MainPage.xaml",
+              "ToolTip": "D:\\source\\repos\\MrMealer\\MrMealer\\MainPage.xaml",
+              "RelativeToolTip": "MrMealer\\MainPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-05T17:55:31.577Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "RecipesViewModel.cs",
               "DocumentMoniker": "D:\\source\\repos\\MrMealer\\MrMealer\\ViewModels\\RecipesViewModel.cs",
               "RelativeDocumentMoniker": "MrMealer\\ViewModels\\RecipesViewModel.cs",
               "ToolTip": "D:\\source\\repos\\MrMealer\\MrMealer\\ViewModels\\RecipesViewModel.cs",
               "RelativeToolTip": "MrMealer\\ViewModels\\RecipesViewModel.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAuwBUAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T08:39:18.077Z",
+              "WhenOpened": "2025-05-05T17:51:48.791Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 7,
               "Title": "ApiService.cs",
               "DocumentMoniker": "D:\\source\\repos\\MrMealer\\MrMealer\\Api\\ApiService.cs",
               "RelativeDocumentMoniker": "MrMealer\\Api\\ApiService.cs",
               "ToolTip": "D:\\source\\repos\\MrMealer\\MrMealer\\Api\\ApiService.cs",
               "RelativeToolTip": "MrMealer\\Api\\ApiService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA5AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-02T16:44:21.792Z",
+              "WhenOpened": "2025-05-05T17:39:17.795Z",
               "EditorCaption": ""
             }
           ]

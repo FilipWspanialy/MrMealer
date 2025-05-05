@@ -2,21 +2,6 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MrMealer.MainPage">
-
-    <ScrollView>
-        <VerticalStackLayout>
-            <CollectionView ItemsSource="{Binding Recipes}">
-                <CollectionView.ItemTemplate>
-                    <DataTemplate>
-                        <StackLayout Padding="10">
-                            <Image Source="{Binding StrMealThumb}" HeightRequest="150"/>
-                            <Label Text="{Binding StrMeal}" FontSize="20" FontAttributes="Bold"/>
-                            <Label Text="{Binding StrInstructions}" LineBreakMode="TailTruncation"/>
-                        </StackLayout>
-                    </DataTemplate>
-                </CollectionView.ItemTemplate>
-            </CollectionView>
-        </VerticalStackLayout>
-    </ScrollView>
+    <Label>hi</Label>
 
 </ContentPage>
