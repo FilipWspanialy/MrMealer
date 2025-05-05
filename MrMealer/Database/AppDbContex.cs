@@ -14,6 +14,10 @@ namespace MrMealer.Database
 
         public DbSet<Recipe> Recipes { get; set; }
         public DbSet<Ingredient> Ingredients { get; set; }
+        public DbSet<Meal> Meals { get; set; }
+        public DbSet<Day> Days { get; set; }
+        public DbSet<RecipeForMeal> RecipeForMeals { get; set; }
+
 
         public AppDbContext()
         {

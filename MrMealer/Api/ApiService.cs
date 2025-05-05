@@ -16,7 +16,6 @@ public class ApiService
 
         return data.Meals?.Select(m => new Recipe
         {
-            Id = m.IdMeal,
             Name = m.StrMeal,
             Instructions = m.StrInstructions,
             ImageUrl = m.StrMealThumb,

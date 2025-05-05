@@ -15,10 +15,10 @@ namespace MrMealer.Models
 
         public string Name { get; set; }
         public string Instructions { get; set; }
-        public string ImageUrl { get; set; }
+        public string? ImageUrl { get; set; }
 
         public bool IsUserCreated { get; set; } = false;
-
+        
         public List<Ingredient> Ingredients { get; set; } = new();
     }
 
