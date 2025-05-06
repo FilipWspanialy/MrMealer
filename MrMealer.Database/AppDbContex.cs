@@ -21,12 +21,21 @@ namespace MrMealer.Database
 
         public AppDbContext()
         {
-            _dbPath = Path.Combine(FileSystem.AppDataDirectory, "recipes.db");
+            _dbPath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "recipes.db");
+
             Database.Migrate();
         }
 
         protected override void OnConfiguring(DbContextOptionsBuilder options)
             => options.UseSqlite($"Filename={_dbPath}");
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<Ingredient>()
+                .HasOne(i => i.Recipe)
+                .WithMany(r => r.Ingredients)
+                .HasForeignKey(i => i.RecipeId)
+                .OnDelete(DeleteBehavior.Cascade);
+        }
     }
 
 }
