@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "D:\\source\\repos\\MrMealer\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\source\\repos\\MrMealer\\MrMealer.Database\\Migrations\\20250506134807_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MrMealer.Database\\Migrations\\20250506134807_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\source\\repos\\MrMealer\\MrMealer.Database\\Migrations\\20250506141622_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MrMealer.Database\\Migrations\\20250506141622_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AA1D5B98-DF2F-4E95-B22E-F21622AA50AD}|MrMealer.Database\\MrMealer.Database.csproj|d:\\source\\repos\\mrmealer\\mrmealer.database\\appdbcontex.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -30,19 +30,23 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{7d1a5679-04f2-3f4a-851f-855baa54731c}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "20250506134807_InitialCreate.cs",
-              "DocumentMoniker": "D:\\source\\repos\\MrMealer\\MrMealer.Database\\Migrations\\20250506134807_InitialCreate.cs",
-              "RelativeDocumentMoniker": "MrMealer.Database\\Migrations\\20250506134807_InitialCreate.cs",
-              "ToolTip": "D:\\source\\repos\\MrMealer\\MrMealer.Database\\Migrations\\20250506134807_InitialCreate.cs",
-              "RelativeToolTip": "MrMealer.Database\\Migrations\\20250506134807_InitialCreate.cs",
+              "Title": "20250506141622_InitialCreate.cs",
+              "DocumentMoniker": "D:\\source\\repos\\MrMealer\\MrMealer.Database\\Migrations\\20250506141622_InitialCreate.cs",
+              "RelativeDocumentMoniker": "MrMealer.Database\\Migrations\\20250506141622_InitialCreate.cs",
+              "ToolTip": "D:\\source\\repos\\MrMealer\\MrMealer.Database\\Migrations\\20250506141622_InitialCreate.cs",
+              "RelativeToolTip": "MrMealer.Database\\Migrations\\20250506141622_InitialCreate.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-06T13:48:07.665Z",
+              "WhenOpened": "2025-05-06T14:16:22.486Z",
               "EditorCaption": ""
             },
             {
@@ -53,7 +57,7 @@
               "RelativeDocumentMoniker": "MrMealer.Database\\AppDbContex.cs",
               "ToolTip": "D:\\source\\repos\\MrMealer\\MrMealer.Database\\AppDbContex.cs",
               "RelativeToolTip": "MrMealer.Database\\AppDbContex.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAuwCUAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAkwBYAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-06T13:44:20.721Z",
               "EditorCaption": ""
@@ -80,8 +84,7 @@
               "RelativeToolTip": "MrMealer\\Api\\ApiService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAQwAAAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-05T19:53:33.066Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-05T19:53:33.066Z"
             },
             {
               "$type": "Document",

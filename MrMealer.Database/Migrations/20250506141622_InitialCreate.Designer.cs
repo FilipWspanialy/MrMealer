@@ -11,7 +11,7 @@ using MrMealer.Database;
 namespace MrMealer.Database.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20250506134807_InitialCreate")]
+    [Migration("20250506141622_InitialCreate")]
     partial class InitialCreate
     {
         /// <inheritdoc />

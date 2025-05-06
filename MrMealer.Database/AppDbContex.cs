@@ -28,6 +28,7 @@ namespace MrMealer.Database
 
         protected override void OnConfiguring(DbContextOptionsBuilder options)
             => options.UseSqlite($"Filename={_dbPath}");
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Ingredient>()
