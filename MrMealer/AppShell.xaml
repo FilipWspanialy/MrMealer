@@ -40,6 +40,15 @@
         </Tab>
     </FlyoutItem>
 
+    <FlyoutItem Title="Recipes">
+        <Tab>
+            <ShellContent 
+            Title="My recipes"
+            ContentTemplate="{DataTemplate views:MyRecipesPage}" 
+            Route="MainPage" />
+        </Tab>
+    </FlyoutItem>
+
     <FlyoutItem Title="User">
         <Tab>
             <ShellContent 

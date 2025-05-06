@@ -69,6 +69,19 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <ProjectReference Include="..\MrMealer.Database\MrMealer.Database.csproj" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Compile Update="Views\MyRecipesPage.xaml.cs">
+	    <DependentUpon>MyRecipesPage.xaml</DependentUpon>
+	  </Compile>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <MauiXaml Update="Views\MyRecipesPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="Views\RecipesPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>

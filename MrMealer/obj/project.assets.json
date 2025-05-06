@@ -3146,6 +3146,21 @@
         "build": {
           "buildTransitive/net6.0-android31.0/Xamarin.KotlinX.Coroutines.Core.Jvm.targets": {}
         }
+      },
+      "MrMealer.Database/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "9.0.4",
+          "Microsoft.EntityFrameworkCore.Sqlite": "9.0.4",
+          "Newtonsoft.Json": "13.0.3"
+        },
+        "compile": {
+          "bin/placeholder/MrMealer.Database.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MrMealer.Database.dll": {}
+        }
       }
     },
     "net8.0-android34.0/android-arm": {
@@ -6286,6 +6301,21 @@
         },
         "build": {
           "buildTransitive/net6.0-android31.0/Xamarin.KotlinX.Coroutines.Core.Jvm.targets": {}
+        }
+      },
+      "MrMealer.Database/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "9.0.4",
+          "Microsoft.EntityFrameworkCore.Sqlite": "9.0.4",
+          "Newtonsoft.Json": "13.0.3"
+        },
+        "compile": {
+          "bin/placeholder/MrMealer.Database.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MrMealer.Database.dll": {}
         }
       }
     },
@@ -9428,6 +9458,21 @@
         "build": {
           "buildTransitive/net6.0-android31.0/Xamarin.KotlinX.Coroutines.Core.Jvm.targets": {}
         }
+      },
+      "MrMealer.Database/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "9.0.4",
+          "Microsoft.EntityFrameworkCore.Sqlite": "9.0.4",
+          "Newtonsoft.Json": "13.0.3"
+        },
+        "compile": {
+          "bin/placeholder/MrMealer.Database.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MrMealer.Database.dll": {}
+        }
       }
     },
     "net8.0-android34.0/android-x64": {
@@ -12568,6 +12613,21 @@
         },
         "build": {
           "buildTransitive/net6.0-android31.0/Xamarin.KotlinX.Coroutines.Core.Jvm.targets": {}
+        }
+      },
+      "MrMealer.Database/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "9.0.4",
+          "Microsoft.EntityFrameworkCore.Sqlite": "9.0.4",
+          "Newtonsoft.Json": "13.0.3"
+        },
+        "compile": {
+          "bin/placeholder/MrMealer.Database.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MrMealer.Database.dll": {}
         }
       }
     },
@@ -15710,6 +15770,21 @@
         "build": {
           "buildTransitive/net6.0-android31.0/Xamarin.KotlinX.Coroutines.Core.Jvm.targets": {}
         }
+      },
+      "MrMealer.Database/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "9.0.4",
+          "Microsoft.EntityFrameworkCore.Sqlite": "9.0.4",
+          "Newtonsoft.Json": "13.0.3"
+        },
+        "compile": {
+          "bin/placeholder/MrMealer.Database.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MrMealer.Database.dll": {}
+        }
       }
     },
     "net8.0-android34.0/iossimulator-x64": {
@@ -18850,6 +18925,21 @@
         },
         "build": {
           "buildTransitive/net6.0-android31.0/Xamarin.KotlinX.Coroutines.Core.Jvm.targets": {}
+        }
+      },
+      "MrMealer.Database/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "9.0.4",
+          "Microsoft.EntityFrameworkCore.Sqlite": "9.0.4",
+          "Newtonsoft.Json": "13.0.3"
+        },
+        "compile": {
+          "bin/placeholder/MrMealer.Database.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MrMealer.Database.dll": {}
         }
       }
     },
@@ -21992,6 +22082,21 @@
         "build": {
           "buildTransitive/net6.0-android31.0/Xamarin.KotlinX.Coroutines.Core.Jvm.targets": {}
         }
+      },
+      "MrMealer.Database/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "9.0.4",
+          "Microsoft.EntityFrameworkCore.Sqlite": "9.0.4",
+          "Newtonsoft.Json": "13.0.3"
+        },
+        "compile": {
+          "bin/placeholder/MrMealer.Database.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MrMealer.Database.dll": {}
+        }
       }
     },
     "net8.0-android34.0/win10-x64": {
@@ -25133,6 +25238,21 @@
         "build": {
           "buildTransitive/net6.0-android31.0/Xamarin.KotlinX.Coroutines.Core.Jvm.targets": {}
         }
+      },
+      "MrMealer.Database/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "9.0.4",
+          "Microsoft.EntityFrameworkCore.Sqlite": "9.0.4",
+          "Newtonsoft.Json": "13.0.3"
+        },
+        "compile": {
+          "bin/placeholder/MrMealer.Database.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MrMealer.Database.dll": {}
+        }
       }
     },
     "net8.0-ios18.0": {
@@ -26488,6 +26608,21 @@
         "build": {
           "buildTransitive/net6.0/_._": {}
         }
+      },
+      "MrMealer.Database/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "9.0.4",
+          "Microsoft.EntityFrameworkCore.Sqlite": "9.0.4",
+          "Newtonsoft.Json": "13.0.3"
+        },
+        "compile": {
+          "bin/placeholder/MrMealer.Database.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MrMealer.Database.dll": {}
+        }
       }
     },
     "net8.0-ios18.0/android-arm": {
@@ -27836,6 +27971,21 @@
         },
         "build": {
           "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "MrMealer.Database/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "9.0.4",
+          "Microsoft.EntityFrameworkCore.Sqlite": "9.0.4",
+          "Newtonsoft.Json": "13.0.3"
+        },
+        "compile": {
+          "bin/placeholder/MrMealer.Database.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MrMealer.Database.dll": {}
         }
       }
     },
@@ -29186,6 +29336,21 @@
         "build": {
           "buildTransitive/net6.0/_._": {}
         }
+      },
+      "MrMealer.Database/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "9.0.4",
+          "Microsoft.EntityFrameworkCore.Sqlite": "9.0.4",
+          "Newtonsoft.Json": "13.0.3"
+        },
+        "compile": {
+          "bin/placeholder/MrMealer.Database.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MrMealer.Database.dll": {}
+        }
       }
     },
     "net8.0-ios18.0/android-x64": {
@@ -30534,6 +30699,21 @@
         },
         "build": {
           "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "MrMealer.Database/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "9.0.4",
+          "Microsoft.EntityFrameworkCore.Sqlite": "9.0.4",
+          "Newtonsoft.Json": "13.0.3"
+        },
+        "compile": {
+          "bin/placeholder/MrMealer.Database.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MrMealer.Database.dll": {}
         }
       }
     },
@@ -31884,6 +32064,21 @@
         "build": {
           "buildTransitive/net6.0/_._": {}
         }
+      },
+      "MrMealer.Database/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "9.0.4",
+          "Microsoft.EntityFrameworkCore.Sqlite": "9.0.4",
+          "Newtonsoft.Json": "13.0.3"
+        },
+        "compile": {
+          "bin/placeholder/MrMealer.Database.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MrMealer.Database.dll": {}
+        }
       }
     },
     "net8.0-ios18.0/iossimulator-x64": {
@@ -33232,6 +33427,21 @@
         },
         "build": {
           "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "MrMealer.Database/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "9.0.4",
+          "Microsoft.EntityFrameworkCore.Sqlite": "9.0.4",
+          "Newtonsoft.Json": "13.0.3"
+        },
+        "compile": {
+          "bin/placeholder/MrMealer.Database.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MrMealer.Database.dll": {}
         }
       }
     },
@@ -34582,6 +34792,21 @@
         "build": {
           "buildTransitive/net6.0/_._": {}
         }
+      },
+      "MrMealer.Database/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "9.0.4",
+          "Microsoft.EntityFrameworkCore.Sqlite": "9.0.4",
+          "Newtonsoft.Json": "13.0.3"
+        },
+        "compile": {
+          "bin/placeholder/MrMealer.Database.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MrMealer.Database.dll": {}
+        }
       }
     },
     "net8.0-ios18.0/win10-x64": {
@@ -35930,6 +36155,21 @@
         },
         "build": {
           "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "MrMealer.Database/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "9.0.4",
+          "Microsoft.EntityFrameworkCore.Sqlite": "9.0.4",
+          "Newtonsoft.Json": "13.0.3"
+        },
+        "compile": {
+          "bin/placeholder/MrMealer.Database.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MrMealer.Database.dll": {}
         }
       }
     },
@@ -37360,6 +37600,21 @@
         "build": {
           "buildTransitive/net6.0/_._": {}
         }
+      },
+      "MrMealer.Database/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "9.0.4",
+          "Microsoft.EntityFrameworkCore.Sqlite": "9.0.4",
+          "Newtonsoft.Json": "13.0.3"
+        },
+        "compile": {
+          "bin/placeholder/MrMealer.Database.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MrMealer.Database.dll": {}
+        }
       }
     },
     "net8.0-maccatalyst18.0/android-arm": {
@@ -38699,6 +38954,21 @@
         },
         "build": {
           "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "MrMealer.Database/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "9.0.4",
+          "Microsoft.EntityFrameworkCore.Sqlite": "9.0.4",
+          "Newtonsoft.Json": "13.0.3"
+        },
+        "compile": {
+          "bin/placeholder/MrMealer.Database.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MrMealer.Database.dll": {}
         }
       }
     },
@@ -40040,6 +40310,21 @@
         "build": {
           "buildTransitive/net6.0/_._": {}
         }
+      },
+      "MrMealer.Database/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "9.0.4",
+          "Microsoft.EntityFrameworkCore.Sqlite": "9.0.4",
+          "Newtonsoft.Json": "13.0.3"
+        },
+        "compile": {
+          "bin/placeholder/MrMealer.Database.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MrMealer.Database.dll": {}
+        }
       }
     },
     "net8.0-maccatalyst18.0/android-x64": {
@@ -41379,6 +41664,21 @@
         },
         "build": {
           "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "MrMealer.Database/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "9.0.4",
+          "Microsoft.EntityFrameworkCore.Sqlite": "9.0.4",
+          "Newtonsoft.Json": "13.0.3"
+        },
+        "compile": {
+          "bin/placeholder/MrMealer.Database.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MrMealer.Database.dll": {}
         }
       }
     },
@@ -42720,6 +43020,21 @@
         "build": {
           "buildTransitive/net6.0/_._": {}
         }
+      },
+      "MrMealer.Database/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "9.0.4",
+          "Microsoft.EntityFrameworkCore.Sqlite": "9.0.4",
+          "Newtonsoft.Json": "13.0.3"
+        },
+        "compile": {
+          "bin/placeholder/MrMealer.Database.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MrMealer.Database.dll": {}
+        }
       }
     },
     "net8.0-maccatalyst18.0/iossimulator-x64": {
@@ -44056,6 +44371,21 @@
         },
         "build": {
           "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "MrMealer.Database/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "9.0.4",
+          "Microsoft.EntityFrameworkCore.Sqlite": "9.0.4",
+          "Newtonsoft.Json": "13.0.3"
+        },
+        "compile": {
+          "bin/placeholder/MrMealer.Database.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MrMealer.Database.dll": {}
         }
       }
     },
@@ -45397,6 +45727,21 @@
         "build": {
           "buildTransitive/net6.0/_._": {}
         }
+      },
+      "MrMealer.Database/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "9.0.4",
+          "Microsoft.EntityFrameworkCore.Sqlite": "9.0.4",
+          "Newtonsoft.Json": "13.0.3"
+        },
+        "compile": {
+          "bin/placeholder/MrMealer.Database.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MrMealer.Database.dll": {}
+        }
       }
     },
     "net8.0-maccatalyst18.0/win10-x64": {
@@ -46733,6 +47078,21 @@
         },
         "build": {
           "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "MrMealer.Database/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "9.0.4",
+          "Microsoft.EntityFrameworkCore.Sqlite": "9.0.4",
+          "Newtonsoft.Json": "13.0.3"
+        },
+        "compile": {
+          "bin/placeholder/MrMealer.Database.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MrMealer.Database.dll": {}
         }
       }
     },
@@ -48332,6 +48692,21 @@
         "build": {
           "buildTransitive/net6.0/_._": {}
         }
+      },
+      "MrMealer.Database/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "9.0.4",
+          "Microsoft.EntityFrameworkCore.Sqlite": "9.0.4",
+          "Newtonsoft.Json": "13.0.3"
+        },
+        "compile": {
+          "bin/placeholder/MrMealer.Database.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MrMealer.Database.dll": {}
+        }
       }
     },
     "net8.0-windows10.0.19041/android-arm": {
@@ -49800,6 +50175,21 @@
         },
         "build": {
           "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "MrMealer.Database/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "9.0.4",
+          "Microsoft.EntityFrameworkCore.Sqlite": "9.0.4",
+          "Newtonsoft.Json": "13.0.3"
+        },
+        "compile": {
+          "bin/placeholder/MrMealer.Database.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MrMealer.Database.dll": {}
         }
       }
     },
@@ -51270,6 +51660,21 @@
         "build": {
           "buildTransitive/net6.0/_._": {}
         }
+      },
+      "MrMealer.Database/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "9.0.4",
+          "Microsoft.EntityFrameworkCore.Sqlite": "9.0.4",
+          "Newtonsoft.Json": "13.0.3"
+        },
+        "compile": {
+          "bin/placeholder/MrMealer.Database.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MrMealer.Database.dll": {}
+        }
       }
     },
     "net8.0-windows10.0.19041/android-x64": {
@@ -52738,6 +53143,21 @@
         },
         "build": {
           "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "MrMealer.Database/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "9.0.4",
+          "Microsoft.EntityFrameworkCore.Sqlite": "9.0.4",
+          "Newtonsoft.Json": "13.0.3"
+        },
+        "compile": {
+          "bin/placeholder/MrMealer.Database.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MrMealer.Database.dll": {}
         }
       }
     },
@@ -54208,6 +54628,21 @@
         "build": {
           "buildTransitive/net6.0/_._": {}
         }
+      },
+      "MrMealer.Database/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "9.0.4",
+          "Microsoft.EntityFrameworkCore.Sqlite": "9.0.4",
+          "Newtonsoft.Json": "13.0.3"
+        },
+        "compile": {
+          "bin/placeholder/MrMealer.Database.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MrMealer.Database.dll": {}
+        }
       }
     },
     "net8.0-windows10.0.19041/iossimulator-x64": {
@@ -55673,6 +56108,21 @@
         },
         "build": {
           "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "MrMealer.Database/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "9.0.4",
+          "Microsoft.EntityFrameworkCore.Sqlite": "9.0.4",
+          "Newtonsoft.Json": "13.0.3"
+        },
+        "compile": {
+          "bin/placeholder/MrMealer.Database.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MrMealer.Database.dll": {}
         }
       }
     },
@@ -57142,6 +57592,21 @@
         },
         "build": {
           "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "MrMealer.Database/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "9.0.4",
+          "Microsoft.EntityFrameworkCore.Sqlite": "9.0.4",
+          "Newtonsoft.Json": "13.0.3"
+        },
+        "compile": {
+          "bin/placeholder/MrMealer.Database.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MrMealer.Database.dll": {}
         }
       }
     },
@@ -58617,6 +59082,21 @@
         },
         "build": {
           "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "MrMealer.Database/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "9.0.4",
+          "Microsoft.EntityFrameworkCore.Sqlite": "9.0.4",
+          "Newtonsoft.Json": "13.0.3"
+        },
+        "compile": {
+          "bin/placeholder/MrMealer.Database.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MrMealer.Database.dll": {}
         }
       }
     }
@@ -64803,6 +65283,11 @@
         "xamarin.kotlinx.coroutines.core.jvm.1.7.2.1.nupkg.sha512",
         "xamarin.kotlinx.coroutines.core.jvm.nuspec"
       ]
+    },
+    "MrMealer.Database/1.0.0": {
+      "type": "project",
+      "path": "../MrMealer.Database/MrMealer.Database.csproj",
+      "msbuildProject": "../MrMealer.Database/MrMealer.Database.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -64813,6 +65298,7 @@
       "Microsoft.Maui.Controls >= 8.0.100",
       "Microsoft.Maui.Controls.Compatibility >= 8.0.100",
       "Microsoft.NET.ILLink.Tasks >= 8.0.10",
+      "MrMealer.Database >= 1.0.0",
       "Newtonsoft.Json >= 13.0.3"
     ],
     "net8.0-ios18.0": [
@@ -64822,6 +65308,7 @@
       "Microsoft.Maui.Controls >= 8.0.100",
       "Microsoft.Maui.Controls.Compatibility >= 8.0.100",
       "Microsoft.NET.ILLink.Tasks >= 8.0.10",
+      "MrMealer.Database >= 1.0.0",
       "Newtonsoft.Json >= 13.0.3"
     ],
     "net8.0-maccatalyst18.0": [
@@ -64831,6 +65318,7 @@
       "Microsoft.Maui.Controls >= 8.0.100",
       "Microsoft.Maui.Controls.Compatibility >= 8.0.100",
       "Microsoft.NET.ILLink.Tasks >= 8.0.10",
+      "MrMealer.Database >= 1.0.0",
       "Newtonsoft.Json >= 13.0.3"
     ],
     "net8.0-windows10.0.19041": [
@@ -64839,6 +65327,7 @@
       "Microsoft.Extensions.Logging.Debug >= 8.0.1",
       "Microsoft.Maui.Controls >= 8.0.100",
       "Microsoft.Maui.Controls.Compatibility >= 8.0.100",
+      "MrMealer.Database >= 1.0.0",
       "Newtonsoft.Json >= 13.0.3"
     ]
   },
@@ -64878,19 +65367,35 @@
       "frameworks": {
         "net8.0-android34.0": {
           "targetAlias": "net8.0-android",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\source\\repos\\MrMealer\\MrMealer.Database\\MrMealer.Database.csproj": {
+              "projectPath": "D:\\source\\repos\\MrMealer\\MrMealer.Database\\MrMealer.Database.csproj"
+            }
+          }
         },
         "net8.0-ios18.0": {
           "targetAlias": "net8.0-ios",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\source\\repos\\MrMealer\\MrMealer.Database\\MrMealer.Database.csproj": {
+              "projectPath": "D:\\source\\repos\\MrMealer\\MrMealer.Database\\MrMealer.Database.csproj"
+            }
+          }
         },
         "net8.0-maccatalyst18.0": {
           "targetAlias": "net8.0-maccatalyst",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\source\\repos\\MrMealer\\MrMealer.Database\\MrMealer.Database.csproj": {
+              "projectPath": "D:\\source\\repos\\MrMealer\\MrMealer.Database\\MrMealer.Database.csproj"
+            }
+          }
         },
         "net8.0-windows10.0.19041": {
           "targetAlias": "net8.0-windows10.0.19041.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\source\\repos\\MrMealer\\MrMealer.Database\\MrMealer.Database.csproj": {
+              "projectPath": "D:\\source\\repos\\MrMealer\\MrMealer.Database\\MrMealer.Database.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

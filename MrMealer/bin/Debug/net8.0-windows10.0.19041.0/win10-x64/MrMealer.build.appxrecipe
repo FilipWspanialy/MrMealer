@@ -478,6 +478,9 @@
     <AppxPackagedFile Include="C:\Users\filip\.nuget\packages\sqlitepclraw.lib.e_sqlite3\2.1.10\runtimes\win-x64\native\e_sqlite3.dll">
       <PackagePath>e_sqlite3.dll</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\source\repos\MrMealer\MrMealer.Database\bin\Debug\net8.0\MrMealer.Database.dll">
+      <PackagePath>MrMealer.Database.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\source\repos\MrMealer\MrMealer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MrMealer.deps.json">
       <PackagePath>MrMealer.deps.json</PackagePath>
     </AppxPackagedFile>

@@ -355,7 +355,6 @@ D:\source\repos\MrMealer\MrMealer\bin\Debug\net8.0-ios\iossimulator-x64\libxamar
 D:\source\repos\MrMealer\MrMealer\bin\Debug\net8.0-ios\iossimulator-x64\libxamarin-dotnet-nativeaot.a
 D:\source\repos\MrMealer\MrMealer\bin\Debug\net8.0-ios\iossimulator-x64\libxamarin-dotnet.a
 D:\source\repos\MrMealer\MrMealer\bin\Debug\net8.0-ios\iossimulator-x64\libxamarin-dotnet.dylib
-D:\source\repos\MrMealer\MrMealer\obj\Debug\net8.0-ios\iossimulator-x64\build-signature\signature
 D:\source\repos\MrMealer\MrMealer\obj\Debug\net8.0-ios\iossimulator-x64\mauiimage.inputs
 D:\source\repos\MrMealer\MrMealer\obj\Debug\net8.0-ios\iossimulator-x64\mauifont.inputs
 D:\source\repos\MrMealer\MrMealer\obj\Debug\net8.0-ios\iossimulator-x64\mauisplash.inputs
@@ -409,3 +408,5 @@ D:\source\repos\MrMealer\MrMealer\obj\Debug\net8.0-ios\iossimulator-x64\refint\M
 D:\source\repos\MrMealer\MrMealer\obj\Debug\net8.0-ios\iossimulator-x64\MrMealer.pdb
 D:\source\repos\MrMealer\MrMealer\obj\Debug\net8.0-ios\iossimulator-x64\MrMealer.genruntimeconfig.cache
 D:\source\repos\MrMealer\MrMealer\obj\Debug\net8.0-ios\iossimulator-x64\ref\MrMealer.dll
+D:\source\repos\MrMealer\MrMealer\bin\Debug\net8.0-ios\iossimulator-x64\MrMealer.Database.dll
+D:\source\repos\MrMealer\MrMealer\bin\Debug\net8.0-ios\iossimulator-x64\MrMealer.Database.pdb
