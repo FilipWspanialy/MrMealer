@@ -30,22 +30,13 @@
                 Title="Shopping list" />
         </Tab>
     </FlyoutItem>
-    
+
     <FlyoutItem Title="Recipes">
         <Tab>
             <ShellContent 
                 Title="Recipes"
                 ContentTemplate="{DataTemplate views:RecipesPage}" 
-                Route="MainPage" />
-        </Tab>
-    </FlyoutItem>
-
-    <FlyoutItem Title="Recipes">
-        <Tab>
-            <ShellContent 
-            Title="My recipes"
-            ContentTemplate="{DataTemplate views:MyRecipesPage}" 
-            Route="MainPage" />
+                Route="Recipes" />
         </Tab>
     </FlyoutItem>
 

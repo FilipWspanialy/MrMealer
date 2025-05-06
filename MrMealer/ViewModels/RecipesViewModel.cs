@@ -1,24 +1,33 @@
 ﻿using System.Collections.ObjectModel;
 using System.Threading.Tasks;
+using Microsoft.EntityFrameworkCore;
+using MrMealer.Database;
 using MrMealer.Models;
 
 public class RecipesViewModel
 {
     public ObservableCollection<Recipe> Recipes { get; set; } = new ObservableCollection<Recipe>();
-    private readonly ApiService _apiService = new ApiService();
-    private string query = "chicken";
 
     public RecipesViewModel()
     {
-        LoadRecipes();
+
     }
 
-    private async void LoadRecipes()
+    public async Task LoadRecipes()
     {
-        var recipes = await ApiService.GetRecipesAsync(query);
-        foreach (var recipe in recipes)
+        try
         {
-            Recipes.Add(recipe);
+            Recipes.Clear();
+            var db = new AppDbContext();
+            var recipes = await db.Recipes.ToListAsync(); 
+            foreach (var recipe in recipes)
+            {
+                Recipes.Add(recipe);
+            }
+        }
+        catch (Exception ex)
+        {
+        
         }
     }
 }
