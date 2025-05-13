@@ -57,6 +57,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = MrMealer.Resources.Styles.
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
 
+[D:/source/repos/MrMealer/MrMealer/Views/RecipeDetailsPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MrMealer.Views.RecipeDetailsPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\RecipeDetailsPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\RecipeDetailsPage.xaml
+
 [D:/source/repos/MrMealer/MrMealer/Views/RecipesPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MrMealer.Views.RecipesPage.xaml

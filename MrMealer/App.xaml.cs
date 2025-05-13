@@ -1,4 +1,5 @@
-﻿namespace MrMealer
+﻿
+namespace MrMealer
 {
     public partial class App : Application
     {
@@ -6,7 +7,14 @@
         {
             InitializeComponent();
 
+            //Task.Run(InitializeAppData);
+
             MainPage = new AppShell();
         }
+
+        //private void InitializeAppData()
+        //{
+        //    throw new NotImplementedException();
+        //}
     }
 }
