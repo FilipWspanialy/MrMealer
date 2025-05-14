@@ -1,24 +1,28 @@
 ﻿using System.Collections.ObjectModel;
+using System.ComponentModel;
 using System.Threading.Tasks;
+using MrMealer.Database;
 using MrMealer.Models;
 
 public class RecipesViewModel
 {
-    public ObservableCollection<Recipe> Recipes { get; set; } = new ObservableCollection<Recipe>();
-    private readonly ApiService _apiService = new ApiService();
-    private string query = "chicken";
+    private readonly AppDbContext _db;
+
+    public ObservableCollection<Recipe> Recipes { get; } = new();
 
     public RecipesViewModel()
     {
+        _db = new AppDbContext();
+
         LoadRecipes();
     }
 
-    private async void LoadRecipes()
+    private void LoadRecipes()
     {
-        var recipes = await ApiService.GetRecipesAsync(query);
-        foreach (var recipe in recipes)
-        {
+        Recipes.Clear();
+        foreach (var recipe in _db.Recipes.ToList())
             Recipes.Add(recipe);
-        }
     }
+
+    public event PropertyChangedEventHandler PropertyChanged;
 }

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MrMealer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+5eb0464f00005b9589ab3bdbcf4d0ff897a6295a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+261b9b18bc29cfda443b552c435fb4b81d337d1f")]
 [assembly: System.Reflection.AssemblyProductAttribute("MrMealer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MrMealer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

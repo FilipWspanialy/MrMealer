@@ -1,4 +1,4 @@
-﻿using MrMealer.ViewModels;
+﻿
 using static Microsoft.EntityFrameworkCore.DbLoggerCategory;
 
 namespace MrMealer
@@ -8,7 +8,6 @@ namespace MrMealer
         public MainPage()
         {
             InitializeComponent();
-            BindingContext = new TestVM();
         }
     }
 

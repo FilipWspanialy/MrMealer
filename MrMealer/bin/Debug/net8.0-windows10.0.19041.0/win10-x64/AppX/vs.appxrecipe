@@ -29,7 +29,7 @@
     <AppXManifest Include="D:\source\repos\MrMealer\MrMealer\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2025-05-14T13:58:47.736</Modified>
+      <Modified>2025-05-14T14:32:05.823</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -43,11 +43,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\source\repos\MrMealer\MrMealer\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\MrMealer.dll">
       <PackagePath>MrMealer.dll</PackagePath>
-      <Modified>2025-05-14T13:58:46.736</Modified>
+      <Modified>2025-05-14T14:32:03.993</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\source\repos\MrMealer\MrMealer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>MrMealer.exe</PackagePath>
-      <Modified>2025-05-14T13:58:46.752</Modified>
+      <Modified>2025-05-14T14:32:04.093</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\source\repos\MrMealer\MrMealer\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>

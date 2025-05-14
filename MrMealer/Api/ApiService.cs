@@ -27,7 +27,7 @@ public class ApiService
 
         using (var db = new AppDbContext())
         {
-            db.Recipes.RemoveRange(db.Recipes);
+            db.Recipes.RemoveRange(db.Recipes.Where(x=>x.IsUserCreated == false));
             await db.SaveChangesAsync();
             foreach (var recipe in recipes)
             {

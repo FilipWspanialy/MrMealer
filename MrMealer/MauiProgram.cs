@@ -1,6 +1,5 @@
 ﻿using Microsoft.Extensions.Logging;
 using MrMealer.Database;
-using MrMealer.ViewModels;
 
 namespace MrMealer
 {
@@ -18,7 +17,6 @@ namespace MrMealer
                 });
             builder.Services.AddDbContext<AppDbContext>();
             builder.Services.AddTransient<RecipesViewModel>();
-            builder.Services.AddTransient<TestVM>();
 
 
 #if DEBUG
