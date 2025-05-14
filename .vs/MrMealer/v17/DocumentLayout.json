@@ -3,36 +3,88 @@
   "WorkspaceRootPath": "D:\\source\\repos\\MrMealer\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{424F663C-2026-4787-BC81-78E294E9D7B6}|MrMealer\\MrMealer.csproj|d:\\source\\repos\\mrmealer\\mrmealer\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{424F663C-2026-4787-BC81-78E294E9D7B6}|MrMealer\\MrMealer.csproj|solutionrelative:mrmealer\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{424F663C-2026-4787-BC81-78E294E9D7B6}|MrMealer\\MrMealer.csproj|d:\\source\\repos\\mrmealer\\mrmealer\\viewmodels\\recipedetailsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{424F663C-2026-4787-BC81-78E294E9D7B6}|MrMealer\\MrMealer.csproj|solutionrelative:mrmealer\\viewmodels\\recipedetailsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{424F663C-2026-4787-BC81-78E294E9D7B6}|MrMealer\\MrMealer.csproj|d:\\source\\repos\\mrmealer\\mrmealer\\viewmodels\\recipesviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{424F663C-2026-4787-BC81-78E294E9D7B6}|MrMealer\\MrMealer.csproj|solutionrelative:mrmealer\\viewmodels\\recipesviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{424F663C-2026-4787-BC81-78E294E9D7B6}|MrMealer\\MrMealer.csproj|d:\\source\\repos\\mrmealer\\mrmealer\\views\\recipespage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{424F663C-2026-4787-BC81-78E294E9D7B6}|MrMealer\\MrMealer.csproj|solutionrelative:mrmealer\\views\\recipespage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{424F663C-2026-4787-BC81-78E294E9D7B6}|MrMealer\\MrMealer.csproj|d:\\source\\repos\\mrmealer\\mrmealer\\views\\recipespage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{424F663C-2026-4787-BC81-78E294E9D7B6}|MrMealer\\MrMealer.csproj|solutionrelative:mrmealer\\views\\recipespage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{424F663C-2026-4787-BC81-78E294E9D7B6}|MrMealer\\MrMealer.csproj|d:\\source\\repos\\mrmealer\\mrmealer\\views\\recipedetailspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{424F663C-2026-4787-BC81-78E294E9D7B6}|MrMealer\\MrMealer.csproj|solutionrelative:mrmealer\\views\\recipedetailspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{424F663C-2026-4787-BC81-78E294E9D7B6}|MrMealer\\MrMealer.csproj|d:\\source\\repos\\mrmealer\\mrmealer\\api\\apiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{424F663C-2026-4787-BC81-78E294E9D7B6}|MrMealer\\MrMealer.csproj|solutionrelative:mrmealer\\api\\apiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AA1D5B98-DF2F-4E95-B22E-F21622AA50AD}|MrMealer.Database\\MrMealer.Database.csproj|d:\\source\\repos\\mrmealer\\mrmealer.database\\appdbcontex.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AA1D5B98-DF2F-4E95-B22E-F21622AA50AD}|MrMealer.Database\\MrMealer.Database.csproj|solutionrelative:mrmealer.database\\appdbcontex.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{424F663C-2026-4787-BC81-78E294E9D7B6}|MrMealer\\MrMealer.csproj|d:\\source\\repos\\mrmealer\\mrmealer\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{424F663C-2026-4787-BC81-78E294E9D7B6}|MrMealer\\MrMealer.csproj|solutionrelative:mrmealer\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{424F663C-2026-4787-BC81-78E294E9D7B6}|MrMealer\\MrMealer.csproj|d:\\source\\repos\\mrmealer\\mrmealer\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{424F663C-2026-4787-BC81-78E294E9D7B6}|MrMealer\\MrMealer.csproj|solutionrelative:mrmealer\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{424F663C-2026-4787-BC81-78E294E9D7B6}|MrMealer\\MrMealer.csproj|d:\\source\\repos\\mrmealer\\mrmealer\\views\\recipespage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{424F663C-2026-4787-BC81-78E294E9D7B6}|MrMealer\\MrMealer.csproj|solutionrelative:mrmealer\\views\\recipespage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{424F663C-2026-4787-BC81-78E294E9D7B6}|MrMealer\\MrMealer.csproj|d:\\source\\repos\\mrmealer\\mrmealer\\views\\recipespage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{424F663C-2026-4787-BC81-78E294E9D7B6}|MrMealer\\MrMealer.csproj|solutionrelative:mrmealer\\views\\recipespage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{424F663C-2026-4787-BC81-78E294E9D7B6}|MrMealer\\MrMealer.csproj|d:\\source\\repos\\mrmealer\\mrmealer\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{424F663C-2026-4787-BC81-78E294E9D7B6}|MrMealer\\MrMealer.csproj|solutionrelative:mrmealer\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{424F663C-2026-4787-BC81-78E294E9D7B6}|MrMealer\\MrMealer.csproj|d:\\source\\repos\\mrmealer\\mrmealer\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{424F663C-2026-4787-BC81-78E294E9D7B6}|MrMealer\\MrMealer.csproj|solutionrelative:mrmealer\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{424F663C-2026-4787-BC81-78E294E9D7B6}|MrMealer\\MrMealer.csproj|d:\\source\\repos\\mrmealer\\mrmealer\\viewmodels\\recipesviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{424F663C-2026-4787-BC81-78E294E9D7B6}|MrMealer\\MrMealer.csproj|solutionrelative:mrmealer\\viewmodels\\recipesviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{424F663C-2026-4787-BC81-78E294E9D7B6}|MrMealer\\MrMealer.csproj|d:\\source\\repos\\mrmealer\\mrmealer\\viewmodels\\testvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{424F663C-2026-4787-BC81-78E294E9D7B6}|MrMealer\\MrMealer.csproj|solutionrelative:mrmealer\\viewmodels\\testvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{424F663C-2026-4787-BC81-78E294E9D7B6}|MrMealer\\MrMealer.csproj|d:\\source\\repos\\mrmealer\\mrmealer\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{424F663C-2026-4787-BC81-78E294E9D7B6}|MrMealer\\MrMealer.csproj|solutionrelative:mrmealer\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA1D5B98-DF2F-4E95-B22E-F21622AA50AD}|MrMealer.Database\\MrMealer.Database.csproj|d:\\source\\repos\\mrmealer\\mrmealer.database\\migrations\\20250514101738_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA1D5B98-DF2F-4E95-B22E-F21622AA50AD}|MrMealer.Database\\MrMealer.Database.csproj|solutionrelative:mrmealer.database\\migrations\\20250514101738_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA1D5B98-DF2F-4E95-B22E-F21622AA50AD}|MrMealer.Database\\MrMealer.Database.csproj|d:\\source\\repos\\mrmealer\\mrmealer.database\\models\\day.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA1D5B98-DF2F-4E95-B22E-F21622AA50AD}|MrMealer.Database\\MrMealer.Database.csproj|solutionrelative:mrmealer.database\\models\\day.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA1D5B98-DF2F-4E95-B22E-F21622AA50AD}|MrMealer.Database\\MrMealer.Database.csproj|d:\\source\\repos\\mrmealer\\mrmealer.database\\models\\recipeformeal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA1D5B98-DF2F-4E95-B22E-F21622AA50AD}|MrMealer.Database\\MrMealer.Database.csproj|solutionrelative:mrmealer.database\\models\\recipeformeal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA1D5B98-DF2F-4E95-B22E-F21622AA50AD}|MrMealer.Database\\MrMealer.Database.csproj|d:\\source\\repos\\mrmealer\\mrmealer.database\\models\\recipe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA1D5B98-DF2F-4E95-B22E-F21622AA50AD}|MrMealer.Database\\MrMealer.Database.csproj|solutionrelative:mrmealer.database\\models\\recipe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA1D5B98-DF2F-4E95-B22E-F21622AA50AD}|MrMealer.Database\\MrMealer.Database.csproj|d:\\source\\repos\\mrmealer\\mrmealer.database\\models\\meal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA1D5B98-DF2F-4E95-B22E-F21622AA50AD}|MrMealer.Database\\MrMealer.Database.csproj|solutionrelative:mrmealer.database\\models\\meal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA1D5B98-DF2F-4E95-B22E-F21622AA50AD}|MrMealer.Database\\MrMealer.Database.csproj|d:\\source\\repos\\mrmealer\\mrmealer.database\\models\\ingredient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA1D5B98-DF2F-4E95-B22E-F21622AA50AD}|MrMealer.Database\\MrMealer.Database.csproj|solutionrelative:mrmealer.database\\models\\ingredient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA1D5B98-DF2F-4E95-B22E-F21622AA50AD}|MrMealer.Database\\MrMealer.Database.csproj|d:\\source\\repos\\mrmealer\\mrmealer.database\\models\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA1D5B98-DF2F-4E95-B22E-F21622AA50AD}|MrMealer.Database\\MrMealer.Database.csproj|solutionrelative:mrmealer.database\\models\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA1D5B98-DF2F-4E95-B22E-F21622AA50AD}|MrMealer.Database\\MrMealer.Database.csproj|d:\\source\\repos\\mrmealer\\mrmealer.database\\models\\apimeal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA1D5B98-DF2F-4E95-B22E-F21622AA50AD}|MrMealer.Database\\MrMealer.Database.csproj|solutionrelative:mrmealer.database\\models\\apimeal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA1D5B98-DF2F-4E95-B22E-F21622AA50AD}|MrMealer.Database\\MrMealer.Database.csproj|d:\\source\\repos\\mrmealer\\mrmealer.database\\models\\shoppinglist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA1D5B98-DF2F-4E95-B22E-F21622AA50AD}|MrMealer.Database\\MrMealer.Database.csproj|solutionrelative:mrmealer.database\\models\\shoppinglist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{424F663C-2026-4787-BC81-78E294E9D7B6}|MrMealer\\MrMealer.csproj|d:\\source\\repos\\mrmealer\\mrmealer\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{424F663C-2026-4787-BC81-78E294E9D7B6}|MrMealer\\MrMealer.csproj|solutionrelative:mrmealer\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,71 +94,98 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "D:\\source\\repos\\MrMealer\\MrMealer\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "MrMealer\\MauiProgram.cs",
+              "ToolTip": "D:\\source\\repos\\MrMealer\\MrMealer\\MauiProgram.cs",
+              "RelativeToolTip": "MrMealer\\MauiProgram.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAA8wBkAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T08:34:34.451Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "D:\\source\\repos\\MrMealer\\MrMealer\\MainPage.xaml",
+              "RelativeDocumentMoniker": "MrMealer\\MainPage.xaml",
+              "ToolTip": "D:\\source\\repos\\MrMealer\\MrMealer\\MainPage.xaml",
+              "RelativeToolTip": "MrMealer\\MainPage.xaml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAB4AAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-14T10:28:12.973Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "App.xaml.cs",
               "DocumentMoniker": "D:\\source\\repos\\MrMealer\\MrMealer\\App.xaml.cs",
               "RelativeDocumentMoniker": "MrMealer\\App.xaml.cs",
               "ToolTip": "D:\\source\\repos\\MrMealer\\MrMealer\\App.xaml.cs",
               "RelativeToolTip": "MrMealer\\App.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAALAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAABMAAABDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-13T10:05:44.861Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "RecipeDetailsViewModel.cs",
-              "DocumentMoniker": "D:\\source\\repos\\MrMealer\\MrMealer\\ViewModels\\RecipeDetailsViewModel.cs",
-              "RelativeDocumentMoniker": "MrMealer\\ViewModels\\RecipeDetailsViewModel.cs",
-              "ToolTip": "D:\\source\\repos\\MrMealer\\MrMealer\\ViewModels\\RecipeDetailsViewModel.cs",
-              "RelativeToolTip": "MrMealer\\ViewModels\\RecipeDetailsViewModel.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAiwBMAAAAJAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "ApiService.cs",
+              "DocumentMoniker": "D:\\source\\repos\\MrMealer\\MrMealer\\Api\\ApiService.cs",
+              "RelativeDocumentMoniker": "MrMealer\\Api\\ApiService.cs",
+              "ToolTip": "D:\\source\\repos\\MrMealer\\MrMealer\\Api\\ApiService.cs",
+              "RelativeToolTip": "MrMealer\\Api\\ApiService.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAB4AAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T10:00:09.79Z",
+              "WhenOpened": "2025-05-05T19:53:33.066Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
+              "Title": "AppDbContex.cs",
+              "DocumentMoniker": "D:\\source\\repos\\MrMealer\\MrMealer.Database\\AppDbContex.cs",
+              "RelativeDocumentMoniker": "MrMealer.Database\\AppDbContex.cs",
+              "ToolTip": "D:\\source\\repos\\MrMealer\\MrMealer.Database\\AppDbContex.cs",
+              "RelativeToolTip": "MrMealer.Database\\AppDbContex.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwBwAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T13:44:20.721Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "RecipesPage.xaml.cs",
               "DocumentMoniker": "D:\\source\\repos\\MrMealer\\MrMealer\\Views\\RecipesPage.xaml.cs",
               "RelativeDocumentMoniker": "MrMealer\\Views\\RecipesPage.xaml.cs",
               "ToolTip": "D:\\source\\repos\\MrMealer\\MrMealer\\Views\\RecipesPage.xaml.cs",
               "RelativeToolTip": "MrMealer\\Views\\RecipesPage.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-13T09:59:31.321Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "RecipeDetailsPage.xaml",
-              "DocumentMoniker": "D:\\source\\repos\\MrMealer\\MrMealer\\Views\\RecipeDetailsPage.xaml",
-              "RelativeDocumentMoniker": "MrMealer\\Views\\RecipeDetailsPage.xaml",
-              "ToolTip": "D:\\source\\repos\\MrMealer\\MrMealer\\Views\\RecipeDetailsPage.xaml",
-              "RelativeToolTip": "MrMealer\\Views\\RecipeDetailsPage.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-13T09:59:23.557Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "AppDbContex.cs",
-              "DocumentMoniker": "D:\\source\\repos\\MrMealer\\MrMealer.Database\\AppDbContex.cs",
-              "RelativeDocumentMoniker": "MrMealer.Database\\AppDbContex.cs",
-              "ToolTip": "D:\\source\\repos\\MrMealer\\MrMealer.Database\\AppDbContex.cs",
-              "RelativeToolTip": "MrMealer.Database\\AppDbContex.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAAAABYAAAAJAAAAAAAAAA==",
+              "DocumentIndex": 8,
+              "Title": "RecipesViewModel.cs",
+              "DocumentMoniker": "D:\\source\\repos\\MrMealer\\MrMealer\\ViewModels\\RecipesViewModel.cs",
+              "RelativeDocumentMoniker": "MrMealer\\ViewModels\\RecipesViewModel.cs",
+              "ToolTip": "D:\\source\\repos\\MrMealer\\MrMealer\\ViewModels\\RecipesViewModel.cs",
+              "RelativeToolTip": "MrMealer\\ViewModels\\RecipesViewModel.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAQwAwAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-06T13:44:20.721Z"
+              "WhenOpened": "2025-05-05T19:53:15.416Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -116,36 +195,169 @@
               "RelativeDocumentMoniker": "MrMealer\\Views\\RecipesPage.xaml",
               "ToolTip": "D:\\source\\repos\\MrMealer\\MrMealer\\Views\\RecipesPage.xaml",
               "RelativeToolTip": "MrMealer\\Views\\RecipesPage.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAABMAAAAAAAAAAAAAAB8AAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-05-05T19:55:57.821Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ApiService.cs",
-              "DocumentMoniker": "D:\\source\\repos\\MrMealer\\MrMealer\\Api\\ApiService.cs",
-              "RelativeDocumentMoniker": "MrMealer\\Api\\ApiService.cs",
-              "ToolTip": "D:\\source\\repos\\MrMealer\\MrMealer\\Api\\ApiService.cs",
-              "RelativeToolTip": "MrMealer\\Api\\ApiService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-05T19:53:33.066Z",
+              "DocumentIndex": 7,
+              "Title": "App.xaml",
+              "DocumentMoniker": "D:\\source\\repos\\MrMealer\\MrMealer\\App.xaml",
+              "RelativeDocumentMoniker": "MrMealer\\App.xaml",
+              "ToolTip": "D:\\source\\repos\\MrMealer\\MrMealer\\App.xaml",
+              "RelativeToolTip": "MrMealer\\App.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-14T08:34:37.62Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "RecipesViewModel.cs",
-              "DocumentMoniker": "D:\\source\\repos\\MrMealer\\MrMealer\\ViewModels\\RecipesViewModel.cs",
-              "RelativeDocumentMoniker": "MrMealer\\ViewModels\\RecipesViewModel.cs",
-              "ToolTip": "D:\\source\\repos\\MrMealer\\MrMealer\\ViewModels\\RecipesViewModel.cs",
-              "RelativeToolTip": "MrMealer\\ViewModels\\RecipesViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAFAAAAAAAAAA==",
+              "DocumentIndex": 10,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "D:\\source\\repos\\MrMealer\\MrMealer\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "MrMealer\\MainPage.xaml.cs",
+              "ToolTip": "D:\\source\\repos\\MrMealer\\MrMealer\\MainPage.xaml.cs",
+              "RelativeToolTip": "MrMealer\\MainPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADgvwoAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-05T19:53:15.416Z",
+              "WhenOpened": "2025-05-14T10:28:16.151Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "TestVM.cs",
+              "DocumentMoniker": "D:\\source\\repos\\MrMealer\\MrMealer\\ViewModels\\TestVM.cs",
+              "RelativeDocumentMoniker": "MrMealer\\ViewModels\\TestVM.cs",
+              "ToolTip": "D:\\source\\repos\\MrMealer\\MrMealer\\ViewModels\\TestVM.cs",
+              "RelativeToolTip": "MrMealer\\ViewModels\\TestVM.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAYwBUAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T10:33:01.099Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "20250514101738_InitialCreate.cs",
+              "DocumentMoniker": "D:\\source\\repos\\MrMealer\\MrMealer.Database\\Migrations\\20250514101738_InitialCreate.cs",
+              "RelativeDocumentMoniker": "MrMealer.Database\\Migrations\\20250514101738_InitialCreate.cs",
+              "ToolTip": "D:\\source\\repos\\MrMealer\\MrMealer.Database\\Migrations\\20250514101738_InitialCreate.cs",
+              "RelativeToolTip": "MrMealer.Database\\Migrations\\20250514101738_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T10:17:39.239Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Day.cs",
+              "DocumentMoniker": "D:\\source\\repos\\MrMealer\\MrMealer.Database\\Models\\Day.cs",
+              "RelativeDocumentMoniker": "MrMealer.Database\\Models\\Day.cs",
+              "ToolTip": "D:\\source\\repos\\MrMealer\\MrMealer.Database\\Models\\Day.cs",
+              "RelativeToolTip": "MrMealer.Database\\Models\\Day.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T08:38:20.997Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ApiResponse.cs",
+              "DocumentMoniker": "D:\\source\\repos\\MrMealer\\MrMealer.Database\\Models\\ApiResponse.cs",
+              "RelativeDocumentMoniker": "MrMealer.Database\\Models\\ApiResponse.cs",
+              "ToolTip": "D:\\source\\repos\\MrMealer\\MrMealer.Database\\Models\\ApiResponse.cs",
+              "RelativeToolTip": "MrMealer.Database\\Models\\ApiResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T08:37:54.077Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ApiMeal.cs",
+              "DocumentMoniker": "D:\\source\\repos\\MrMealer\\MrMealer.Database\\Models\\ApiMeal.cs",
+              "RelativeDocumentMoniker": "MrMealer.Database\\Models\\ApiMeal.cs",
+              "ToolTip": "D:\\source\\repos\\MrMealer\\MrMealer.Database\\Models\\ApiMeal.cs",
+              "RelativeToolTip": "MrMealer.Database\\Models\\ApiMeal.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T08:37:08.225Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Ingredient.cs",
+              "DocumentMoniker": "D:\\source\\repos\\MrMealer\\MrMealer.Database\\Models\\Ingredient.cs",
+              "RelativeDocumentMoniker": "MrMealer.Database\\Models\\Ingredient.cs",
+              "ToolTip": "D:\\source\\repos\\MrMealer\\MrMealer.Database\\Models\\Ingredient.cs",
+              "RelativeToolTip": "MrMealer.Database\\Models\\Ingredient.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T08:38:23.998Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Meal.cs",
+              "DocumentMoniker": "D:\\source\\repos\\MrMealer\\MrMealer.Database\\Models\\Meal.cs",
+              "RelativeDocumentMoniker": "MrMealer.Database\\Models\\Meal.cs",
+              "ToolTip": "D:\\source\\repos\\MrMealer\\MrMealer.Database\\Models\\Meal.cs",
+              "RelativeToolTip": "MrMealer.Database\\Models\\Meal.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T08:38:20.412Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Recipe.cs",
+              "DocumentMoniker": "D:\\source\\repos\\MrMealer\\MrMealer.Database\\Models\\Recipe.cs",
+              "RelativeDocumentMoniker": "MrMealer.Database\\Models\\Recipe.cs",
+              "ToolTip": "D:\\source\\repos\\MrMealer\\MrMealer.Database\\Models\\Recipe.cs",
+              "RelativeToolTip": "MrMealer.Database\\Models\\Recipe.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T08:38:38.663Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "RecipeForMeal.cs",
+              "DocumentMoniker": "D:\\source\\repos\\MrMealer\\MrMealer.Database\\Models\\RecipeForMeal.cs",
+              "RelativeDocumentMoniker": "MrMealer.Database\\Models\\RecipeForMeal.cs",
+              "ToolTip": "D:\\source\\repos\\MrMealer\\MrMealer.Database\\Models\\RecipeForMeal.cs",
+              "RelativeToolTip": "MrMealer.Database\\Models\\RecipeForMeal.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T08:38:46.203Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ShoppingList.cs",
+              "DocumentMoniker": "D:\\source\\repos\\MrMealer\\MrMealer.Database\\Models\\ShoppingList.cs",
+              "RelativeDocumentMoniker": "MrMealer.Database\\Models\\ShoppingList.cs",
+              "ToolTip": "D:\\source\\repos\\MrMealer\\MrMealer.Database\\Models\\ShoppingList.cs",
+              "RelativeToolTip": "MrMealer.Database\\Models\\ShoppingList.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T08:38:52.009Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "AppShell.xaml",
+              "DocumentMoniker": "D:\\source\\repos\\MrMealer\\MrMealer\\AppShell.xaml",
+              "RelativeDocumentMoniker": "MrMealer\\AppShell.xaml",
+              "ToolTip": "D:\\source\\repos\\MrMealer\\MrMealer\\AppShell.xaml",
+              "RelativeToolTip": "MrMealer\\AppShell.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-14T08:34:36.097Z"
             }
           ]
         }

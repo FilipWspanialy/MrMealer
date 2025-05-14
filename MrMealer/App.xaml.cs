@@ -1,20 +1,24 @@
 ﻿
+using MrMealer.Database;
+using MrMealer.Models;
+using static Microsoft.EntityFrameworkCore.DbLoggerCategory;
+
 namespace MrMealer
 {
     public partial class App : Application
     {
-        public App()
+        public App(AppDbContext db)
         {
             InitializeComponent();
-
-            //Task.Run(InitializeAppData);
-
+            db.Database.EnsureCreated();
             MainPage = new AppShell();
+            LoadRecipes();
         }
 
-        //private void InitializeAppData()
-        //{
-        //    throw new NotImplementedException();
-        //}
+        private async void LoadRecipes()
+        {
+            var recipes = await ApiService.GetRecipesAsync("chicken");
+            
+        }
     }
 }

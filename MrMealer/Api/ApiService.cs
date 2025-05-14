@@ -2,6 +2,7 @@
 using System.Threading.Tasks;
 using Newtonsoft.Json;
 using MrMealer.Models;
+using MrMealer.Database;
 
 public class ApiService
 {
@@ -11,17 +12,40 @@ public class ApiService
     {
         var url = $"https://www.themealdb.com/api/json/v1/1/search.php?s={query}";
         var json = await _client.GetStringAsync(url);
-
         var data = JsonConvert.DeserializeObject<ApiResponse>(json);
 
-        return data.Meals?.Select(m => new Recipe
+        if (data.Meals == null)
+            return new();
+
+        var recipes = data.Meals.Select(m => new Recipe
         {
             Name = m.StrMeal,
             Instructions = m.StrInstructions,
             ImageUrl = m.StrMealThumb,
             Ingredients = m.GetIngredients()
-        }).ToList() ?? new();
+        }).ToList();
+
+        using (var db = new AppDbContext())
+        {
+            db.Recipes.RemoveRange(db.Recipes);
+            await db.SaveChangesAsync();
+            foreach (var recipe in recipes)
+            {
+                // Sprawdź, czy przepis już istnieje w bazie
+                var exists = db.Recipes.Any(r => r.Name == recipe.Name);
+
+                if (!exists)
+                {
+                    db.Recipes.Add(recipe);
+                }
+            }
+
+            await db.SaveChangesAsync();
+        }
+
+        return recipes;
     }
+
 }
 
 

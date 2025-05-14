@@ -11,7 +11,7 @@ using MrMealer.Database;
 namespace MrMealer.Database.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20250506141622_InitialCreate")]
+    [Migration("20250514101738_InitialCreate")]
     partial class InitialCreate
     {
         /// <inheritdoc />
@@ -55,9 +55,8 @@ namespace MrMealer.Database.Migrations
                     b.Property<int?>("RecipeForMealId")
                         .HasColumnType("INTEGER");
 
-                    b.Property<string>("RecipeId")
-                        .IsRequired()
-                        .HasColumnType("TEXT");
+                    b.Property<int>("RecipeId")
+                        .HasColumnType("INTEGER");
 
                     b.HasKey("Id");
 
@@ -90,8 +89,9 @@ namespace MrMealer.Database.Migrations
 
             modelBuilder.Entity("MrMealer.Models.Recipe", b =>
                 {
-                    b.Property<string>("Id")
-                        .HasColumnType("TEXT");
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("INTEGER");
 
                     b.Property<string>("ImageUrl")
                         .HasColumnType("TEXT");
@@ -103,16 +103,11 @@ namespace MrMealer.Database.Migrations
                     b.Property<bool>("IsUserCreated")
                         .HasColumnType("INTEGER");
 
-                    b.Property<int?>("MealId")
-                        .HasColumnType("INTEGER");
-
                     b.Property<string>("Name")
                         .IsRequired()
                         .HasColumnType("TEXT");
 
                     b.HasKey("Id");
-
-                    b.HasIndex("MealId");
 
                     b.ToTable("Recipes");
                 });
@@ -129,9 +124,6 @@ namespace MrMealer.Database.Migrations
                     b.Property<int>("RecipeId")
                         .HasColumnType("INTEGER");
 
-                    b.Property<string>("RecipeId1")
-                        .HasColumnType("TEXT");
-
                     b.Property<string>("RecipeName")
                         .IsRequired()
                         .HasColumnType("TEXT");
@@ -140,7 +132,7 @@ namespace MrMealer.Database.Migrations
 
                     b.HasIndex("MealId");
 
-                    b.HasIndex("RecipeId1");
+                    b.HasIndex("RecipeId");
 
                     b.ToTable("RecipeForMeals");
                 });
@@ -171,24 +163,19 @@ namespace MrMealer.Database.Migrations
                     b.Navigation("Day");
                 });
 
-            modelBuilder.Entity("MrMealer.Models.Recipe", b =>
-                {
-                    b.HasOne("MrMealer.Models.Meal", null)
-                        .WithMany("Recipes")
-                        .HasForeignKey("MealId");
-                });
-
             modelBuilder.Entity("MrMealer.Models.RecipeForMeal", b =>
                 {
                     b.HasOne("MrMealer.Models.Meal", "Meal")
-                        .WithMany()
+                        .WithMany("Recipes")
                         .HasForeignKey("MealId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.HasOne("MrMealer.Models.Recipe", "Recipe")
                         .WithMany()
-                        .HasForeignKey("RecipeId1");
+                        .HasForeignKey("RecipeId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
                     b.Navigation("Meal");
 

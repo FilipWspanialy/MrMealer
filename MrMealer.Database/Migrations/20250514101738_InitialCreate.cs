@@ -26,6 +26,22 @@ namespace MrMealer.Database.Migrations
                 });
 
             migrationBuilder.CreateTable(
+                name: "Recipes",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "INTEGER", nullable: false)
+                        .Annotation("Sqlite:Autoincrement", true),
+                    Name = table.Column<string>(type: "TEXT", nullable: false),
+                    Instructions = table.Column<string>(type: "TEXT", nullable: false),
+                    ImageUrl = table.Column<string>(type: "TEXT", nullable: true),
+                    IsUserCreated = table.Column<bool>(type: "INTEGER", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Recipes", x => x.Id);
+                });
+
+            migrationBuilder.CreateTable(
                 name: "Meals",
                 columns: table => new
                 {
@@ -46,27 +62,6 @@ namespace MrMealer.Database.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "Recipes",
-                columns: table => new
-                {
-                    Id = table.Column<string>(type: "TEXT", nullable: false),
-                    Name = table.Column<string>(type: "TEXT", nullable: false),
-                    Instructions = table.Column<string>(type: "TEXT", nullable: false),
-                    ImageUrl = table.Column<string>(type: "TEXT", nullable: true),
-                    IsUserCreated = table.Column<bool>(type: "INTEGER", nullable: false),
-                    MealId = table.Column<int>(type: "INTEGER", nullable: true)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_Recipes", x => x.Id);
-                    table.ForeignKey(
-                        name: "FK_Recipes_Meals_MealId",
-                        column: x => x.MealId,
-                        principalTable: "Meals",
-                        principalColumn: "Id");
-                });
-
-            migrationBuilder.CreateTable(
                 name: "RecipeForMeals",
                 columns: table => new
                 {
@@ -74,7 +69,6 @@ namespace MrMealer.Database.Migrations
                         .Annotation("Sqlite:Autoincrement", true),
                     MealId = table.Column<int>(type: "INTEGER", nullable: false),
                     RecipeId = table.Column<int>(type: "INTEGER", nullable: false),
-                    RecipeId1 = table.Column<string>(type: "TEXT", nullable: true),
                     RecipeName = table.Column<string>(type: "TEXT", nullable: false)
                 },
                 constraints: table =>
@@ -87,10 +81,11 @@ namespace MrMealer.Database.Migrations
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
                     table.ForeignKey(
-                        name: "FK_RecipeForMeals_Recipes_RecipeId1",
-                        column: x => x.RecipeId1,
+                        name: "FK_RecipeForMeals_Recipes_RecipeId",
+                        column: x => x.RecipeId,
                         principalTable: "Recipes",
-                        principalColumn: "Id");
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Cascade);
                 });
 
             migrationBuilder.CreateTable(
@@ -101,7 +96,7 @@ namespace MrMealer.Database.Migrations
                         .Annotation("Sqlite:Autoincrement", true),
                     Name = table.Column<string>(type: "TEXT", nullable: false),
                     Measure = table.Column<string>(type: "TEXT", nullable: false),
-                    RecipeId = table.Column<string>(type: "TEXT", nullable: false),
+                    RecipeId = table.Column<int>(type: "INTEGER", nullable: false),
                     RecipeForMealId = table.Column<int>(type: "INTEGER", nullable: true)
                 },
                 constraints: table =>
@@ -141,14 +136,9 @@ namespace MrMealer.Database.Migrations
                 column: "MealId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_RecipeForMeals_RecipeId1",
+                name: "IX_RecipeForMeals_RecipeId",
                 table: "RecipeForMeals",
-                column: "RecipeId1");
-
-            migrationBuilder.CreateIndex(
-                name: "IX_Recipes_MealId",
-                table: "Recipes",
-                column: "MealId");
+                column: "RecipeId");
         }
 
         /// <inheritdoc />
@@ -161,10 +151,10 @@ namespace MrMealer.Database.Migrations
                 name: "RecipeForMeals");
 
             migrationBuilder.DropTable(
-                name: "Recipes");
+                name: "Meals");
 
             migrationBuilder.DropTable(
-                name: "Meals");
+                name: "Recipes");
 
             migrationBuilder.DropTable(
                 name: "Days");
