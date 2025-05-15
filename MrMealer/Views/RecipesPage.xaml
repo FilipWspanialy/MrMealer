@@ -5,25 +5,35 @@
              Title="Recipes">
     <ScrollView>
         <VerticalStackLayout>
-            <CollectionView ItemsSource="{Binding Recipes}">
+            <CollectionView ItemsSource="{Binding Recipes}" SelectionMode="Single"  SelectionChanged="OnRecipeSelected">
+                <CollectionView.ItemsLayout>
+                    <GridItemsLayout Orientation="Vertical"
+                         Span="3" />
+                </CollectionView.ItemsLayout>
                 <CollectionView.ItemTemplate>
                     <DataTemplate>
-                        <StackLayout Padding="10">
-                            <Image Source="{Binding ImageUrl}" HeightRequest="150"/>
-                            <Label Text="{Binding Name}" FontSize="20" FontAttributes="Bold"/>
-                            <Label Text="{Binding Instructions}" LineBreakMode="TailTruncation"/>
-                            <CollectionView ItemsSource="{Binding Ingredients}">
-                                <CollectionView.ItemTemplate>
-                                    <DataTemplate>
-                                        <StackLayout Orientation="Horizontal" Padding="5">
-                                            <Label Text="{Binding Name}" FontAttributes="Bold" />
-                                            <Label Text=" - " />
-                                            <Label Text="{Binding Measure}" />
-                                        </StackLayout>
-                                    </DataTemplate>
-                                </CollectionView.ItemTemplate>
-                            </CollectionView>
-                        </StackLayout>
+                        <Frame HeightRequest="200"
+                               Margin="10"
+                               CornerRadius="15"
+                               HasShadow="True"
+                               BackgroundColor="White">
+                            <Grid>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="3*" />
+                                    <RowDefinition Height="1*" />
+                                </Grid.RowDefinitions>
+                                <Image Source="{Binding ImageUrl}"
+                                       Aspect="AspectFill"
+                                       Grid.Row="0" />
+                                <Label Text="{Binding Name}"
+                                       TextColor="Black"
+                                       FontAttributes="Bold"
+                                       FontSize="16"
+                                       HorizontalOptions="Center"
+                                       Grid.Row="1"
+                                       Margin="5" />
+                            </Grid>
+                        </Frame>
                     </DataTemplate>
                 </CollectionView.ItemTemplate>
             </CollectionView>

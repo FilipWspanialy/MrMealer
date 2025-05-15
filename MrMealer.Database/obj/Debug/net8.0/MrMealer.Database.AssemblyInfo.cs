@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MrMealer.Database")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5eb0464f00005b9589ab3bdbcf4d0ff897a6295a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ddf0dc84b673f24fc9dd67e47d5df4c06e50a75b")]
 [assembly: System.Reflection.AssemblyProductAttribute("MrMealer.Database")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MrMealer.Database")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

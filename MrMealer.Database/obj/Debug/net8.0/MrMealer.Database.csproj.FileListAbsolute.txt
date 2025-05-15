@@ -1,13 +1,13 @@
+D:\source\repos\MrMealer\MrMealer.Database\bin\Debug\net8.0\MrMealer.Database.deps.json
+D:\source\repos\MrMealer\MrMealer.Database\bin\Debug\net8.0\MrMealer.Database.runtimeconfig.json
+D:\source\repos\MrMealer\MrMealer.Database\bin\Debug\net8.0\MrMealer.Database.dll
+D:\source\repos\MrMealer\MrMealer.Database\bin\Debug\net8.0\MrMealer.Database.pdb
 D:\source\repos\MrMealer\MrMealer.Database\obj\Debug\net8.0\MrMealer.Database.csproj.AssemblyReference.cache
 D:\source\repos\MrMealer\MrMealer.Database\obj\Debug\net8.0\MrMealer.Database.GeneratedMSBuildEditorConfig.editorconfig
 D:\source\repos\MrMealer\MrMealer.Database\obj\Debug\net8.0\MrMealer.Database.AssemblyInfoInputs.cache
 D:\source\repos\MrMealer\MrMealer.Database\obj\Debug\net8.0\MrMealer.Database.AssemblyInfo.cs
 D:\source\repos\MrMealer\MrMealer.Database\obj\Debug\net8.0\MrMealer.Database.csproj.CoreCompileInputs.cache
 D:\source\repos\MrMealer\MrMealer.Database\obj\Debug\net8.0\MrMealer.Database.sourcelink.json
-D:\source\repos\MrMealer\MrMealer.Database\bin\Debug\net8.0\MrMealer.Database.deps.json
-D:\source\repos\MrMealer\MrMealer.Database\bin\Debug\net8.0\MrMealer.Database.runtimeconfig.json
-D:\source\repos\MrMealer\MrMealer.Database\bin\Debug\net8.0\MrMealer.Database.dll
-D:\source\repos\MrMealer\MrMealer.Database\bin\Debug\net8.0\MrMealer.Database.pdb
 D:\source\repos\MrMealer\MrMealer.Database\obj\Debug\net8.0\MrMealer.Database.dll
 D:\source\repos\MrMealer\MrMealer.Database\obj\Debug\net8.0\refint\MrMealer.Database.dll
 D:\source\repos\MrMealer\MrMealer.Database\obj\Debug\net8.0\MrMealer.Database.pdb
