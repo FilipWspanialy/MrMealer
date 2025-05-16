@@ -5,6 +5,9 @@
              Title="Recipes">
     <ScrollView>
         <VerticalStackLayout>
+            <Button Text="Add New Recipe"
+                    Clicked="OnAddRecipeClicked"
+                    HorizontalOptions="Center" />
             <CollectionView ItemsSource="{Binding Recipes}" SelectionMode="Single"  SelectionChanged="OnRecipeSelected">
                 <CollectionView.ItemsLayout>
                     <GridItemsLayout Orientation="Vertical"

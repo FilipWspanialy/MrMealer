@@ -14,15 +14,16 @@ public class RecipesViewModel
     {
         _db = new AppDbContext();
 
-        LoadRecipes();
+        LoadRecipesAsync();
     }
 
-    private void LoadRecipes()
+    public async Task LoadRecipesAsync()
     {
         Recipes.Clear();
-        foreach (var recipe in _db.Recipes.ToList())
+        foreach (var recipe in _db.Recipes.OrderBy(r => r.Id).ToList())
             Recipes.Add(recipe);
     }
 
     public event PropertyChangedEventHandler PropertyChanged;
+
 }

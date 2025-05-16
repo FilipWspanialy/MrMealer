@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:viewModels="clr-namespace:MrMealer.ViewModels"
+             x:Class="MrMealer.Views.RecipeAddPage"
+             Title="Add recipe">
+    <ScrollView>
+        <VerticalStackLayout Padding="20" Spacing="10">
+
+            <Entry Placeholder="Recipe name" Text="{Binding RecipeName}" />
+            <Editor Placeholder="Instructions" Text="{Binding Instructions}" AutoSize="TextChanges" />
+
+            <Label Text="Ingredients:" FontAttributes="Bold" />
+
+            <CollectionView ItemsSource="{Binding Ingredients}">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <HorizontalStackLayout Spacing="10">
+                            <Entry Placeholder="Name" Text="{Binding Name}" WidthRequest="150"/>
+                            <Entry Placeholder="Measure" Text="{Binding Measure}" WidthRequest="100"/>
+                        </HorizontalStackLayout>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+
+            <Button Text="Add Ingredient" Command="{Binding AddIngredientCommand}" />
+            <Button Text="Save Recipe" Command="{Binding SaveRecipeCommand}" />
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

@@ -8,6 +8,7 @@ namespace MrMealer
         {
             InitializeComponent();
             Routing.RegisterRoute("recipeDetails", typeof(RecipeDetailsPage));
+            Routing.RegisterRoute("AddRecipePage", typeof(RecipeAddPage));
 
         }
     }

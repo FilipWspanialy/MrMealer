@@ -42,7 +42,6 @@ namespace MrMealer.Database.Migrations
                         .HasColumnType("INTEGER");
 
                     b.Property<string>("Measure")
-                        .IsRequired()
                         .HasColumnType("TEXT");
 
                     b.Property<string>("Name")
