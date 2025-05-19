@@ -62,10 +62,6 @@ namespace MrMealer.ViewModels
             Ingredients = new ObservableCollection<Ingredient>(Recipe.Ingredients);
             OnPropertyChanged(nameof(Ingredients));
         }
-        public void Refresh()
-        {
-            LoadRecipe();
-        }
         private bool CanEdit()
         {
             return Recipe?.IsUserCreated == true;

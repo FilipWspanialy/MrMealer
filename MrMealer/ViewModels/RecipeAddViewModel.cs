@@ -42,9 +42,6 @@ namespace MrMealer.ViewModels
             AddIngredientCommand = new Command(AddIngredient);
             SaveRecipeCommand = new Command(async () => await SaveRecipeAsync());
         }
-        public event PropertyChangedEventHandler PropertyChanged;
-        protected void OnPropertyChanged([CallerMemberName] string propertyName = "") =>
-            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
         private void AddIngredient()
         {
 

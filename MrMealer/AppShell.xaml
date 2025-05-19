@@ -20,7 +20,8 @@
     <FlyoutItem Title="Plan">
         <Tab>
             <ShellContent 
-                Title="Plan"/>
+                Title="Plan"
+                ContentTemplate="{DataTemplate views:PlanPage}"/>
         </Tab>
     </FlyoutItem>
     

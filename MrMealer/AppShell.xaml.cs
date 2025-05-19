@@ -11,6 +11,7 @@ namespace MrMealer
             Routing.RegisterRoute("recipeEdit", typeof(RecipeEditPage));
             Routing.RegisterRoute("recipeAdd", typeof(RecipeAddPage));
             Routing.RegisterRoute("mainPage", typeof(MainPage));
+            Routing.RegisterRoute("plan", typeof(PlanPage));
 
         }
     }
