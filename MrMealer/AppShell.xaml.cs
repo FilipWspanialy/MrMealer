@@ -8,7 +8,9 @@ namespace MrMealer
         {
             InitializeComponent();
             Routing.RegisterRoute("recipeDetails", typeof(RecipeDetailsPage));
-            Routing.RegisterRoute("AddRecipePage", typeof(RecipeAddPage));
+            Routing.RegisterRoute("recipeEdit", typeof(RecipeEditPage));
+            Routing.RegisterRoute("recipeAdd", typeof(RecipeAddPage));
+            Routing.RegisterRoute("mainPage", typeof(MainPage));
 
         }
     }

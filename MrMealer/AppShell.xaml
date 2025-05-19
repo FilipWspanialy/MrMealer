@@ -13,7 +13,7 @@
             <ShellContent 
                 Title="Home"
                 ContentTemplate="{DataTemplate local:MainPage}" 
-                Route="MainPage" />
+                Route="mainPage" />
         </Tab>
     </FlyoutItem>
     
@@ -35,8 +35,7 @@
         <Tab>
             <ShellContent 
                 Title="Recipes"
-                ContentTemplate="{DataTemplate views:RecipesPage}" 
-                Route="MainPage" />
+                ContentTemplate="{DataTemplate views:RecipesPage}"/>
         </Tab>
     </FlyoutItem>
 

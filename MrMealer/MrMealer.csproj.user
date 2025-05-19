@@ -12,6 +12,9 @@
     <MauiXaml Update="Views\RecipeDetailsPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
+    <MauiXaml Update="Views\RecipeEditPage.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
     <MauiXaml Update="Views\RecipesPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>

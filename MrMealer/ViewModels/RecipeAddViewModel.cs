@@ -16,7 +16,6 @@ namespace MrMealer.ViewModels
     {
         private string _recipeName;
         private string _instructions;
-
         public string RecipeName
         {
             get => _recipeName;
@@ -26,7 +25,6 @@ namespace MrMealer.ViewModels
                 OnPropertyChanged();
             }
         }
-
         public string Instructions
         {
             get => _instructions;
@@ -36,28 +34,22 @@ namespace MrMealer.ViewModels
                 OnPropertyChanged();
             }
         }
-
         public ObservableCollection<Ingredient> Ingredients { get; set; } = new();
-
         public ICommand AddIngredientCommand { get; }
         public ICommand SaveRecipeCommand { get; }
-
-        public event PropertyChangedEventHandler PropertyChanged;
-        protected void OnPropertyChanged([CallerMemberName] string propertyName = "") =>
-            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
-
         public RecipeAddViewModel()
         {
             AddIngredientCommand = new Command(AddIngredient);
             SaveRecipeCommand = new Command(async () => await SaveRecipeAsync());
         }
-
+        public event PropertyChangedEventHandler PropertyChanged;
+        protected void OnPropertyChanged([CallerMemberName] string propertyName = "") =>
+            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
         private void AddIngredient()
         {
 
             Ingredients.Add(new Ingredient());
         }
-
         private async Task SaveRecipeAsync()
         {
             var validIngredients = Ingredients.Where(i => !string.IsNullOrWhiteSpace(i.Name)).ToList();

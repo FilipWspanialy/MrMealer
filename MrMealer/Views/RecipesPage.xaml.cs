@@ -21,7 +21,7 @@ namespace MrMealer.Views
         }
         private async void OnAddRecipeClicked(object sender, EventArgs e)
         {
-            await Shell.Current.GoToAsync("AddRecipePage");
+            await Shell.Current.GoToAsync("recipeAdd");
         }
 
         protected override async void OnAppearing()

@@ -6,8 +6,18 @@
              Title="Recipe details">
     <ScrollView>
         <VerticalStackLayout Padding="20" Spacing="15">
+            <Button Text="Edit"
+                Command="{Binding EditCommand}"
+                IsVisible="{Binding IsUserCreated}" />
+
+            <Button Text="Delete"
+                Command="{Binding DeleteCommand}"
+                IsVisible="{Binding IsUserCreated}" />
+
             <Image Source="{Binding Recipe.ImageUrl}" HeightRequest="200" Aspect="AspectFill" />
+            
             <Label Text="{Binding Recipe.Name}" FontSize="24" FontAttributes="Bold" />
+            
             <CollectionView ItemsSource="{Binding Ingredients}">
                 <CollectionView.ItemTemplate>
                     <DataTemplate>
@@ -19,7 +29,9 @@
                     </DataTemplate>
                 </CollectionView.ItemTemplate>
             </CollectionView>
+            
             <Label Text="{Binding Recipe.Instructions}" FontSize="24" FontAttributes="Bold" />
+            
         </VerticalStackLayout>
     </ScrollView>
 </ContentPage>
