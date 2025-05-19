@@ -29,13 +29,13 @@
     <AppXManifest Include="D:\source\repos\MrMealer\MrMealer\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2025-05-19T18:56:26.586</Modified>
+      <Modified>2025-05-19T23:11:03.673</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\source\repos\MrMealer\MrMealer\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2025-05-19T17:28:35.327</Modified>
+      <Modified>2025-05-19T21:50:54.338</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\source\repos\MrMealer\MrMealer\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\MrMealer.runtimeconfig.json">
       <PackagePath>MrMealer.runtimeconfig.json</PackagePath>
@@ -43,11 +43,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\source\repos\MrMealer\MrMealer\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\MrMealer.dll">
       <PackagePath>MrMealer.dll</PackagePath>
-      <Modified>2025-05-19T18:56:25.753</Modified>
+      <Modified>2025-05-19T23:11:01.513</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\source\repos\MrMealer\MrMealer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>MrMealer.exe</PackagePath>
-      <Modified>2025-05-19T18:56:25.776</Modified>
+      <Modified>2025-05-19T23:11:01.623</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\source\repos\MrMealer\MrMealer\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
@@ -639,11 +639,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\source\repos\MrMealer\MrMealer.Database\bin\Debug\net8.0\MrMealer.Database.dll">
       <PackagePath>MrMealer.Database.dll</PackagePath>
-      <Modified>2025-05-19T18:47:40.067</Modified>
+      <Modified>2025-05-19T21:50:39.008</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\source\repos\MrMealer\MrMealer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MrMealer.deps.json">
       <PackagePath>MrMealer.deps.json</PackagePath>
-      <Modified>2025-05-19T17:28:35.513</Modified>
+      <Modified>2025-05-19T21:50:54.598</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\filip\.nuget\packages\humanizer.core\2.14.1\lib\net6.0\Humanizer.dll">
       <PackagePath>Humanizer.dll</PackagePath>

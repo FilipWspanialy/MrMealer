@@ -9,7 +9,7 @@
             <Button Text="Add week"
                     Command="{Binding AddWeekCommand}"/>
 
-            <CollectionView ItemsSource="{Binding Days}">
+            <CollectionView ItemsSource="{Binding Days}" SelectionMode="Single" SelectionChanged="OnDaySelected">
                 <CollectionView.ItemTemplate>
                     <DataTemplate>
                         <Frame HeightRequest="120"

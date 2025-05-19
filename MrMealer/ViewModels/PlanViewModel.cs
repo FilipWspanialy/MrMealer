@@ -26,6 +26,7 @@ namespace MrMealer.ViewModels
             AddWeekCommand = new Command(AddWeekClicked);
         }
 
+
         private void AddWeekClicked(object obj)
         {
             AddWeek();
@@ -56,11 +57,12 @@ namespace MrMealer.ViewModels
         private void AddWeek()
         {
             var startdate = default(DateTime);
-            int daysToSunday = 7;
+            int daysToAdd = 7;
             if (_lastdate == default(DateTime))
             {
                 startdate = DateTime.Today;
-                daysToSunday = ((int)DayOfWeek.Sunday - (int)DateTime.Today.DayOfWeek + 7) % 7;
+                daysToAdd = ((int)DayOfWeek.Sunday - (int)DateTime.Today.DayOfWeek + 7) % 7;
+                if (daysToAdd == 0) daysToAdd = 7;
 
             }
             else
@@ -69,7 +71,9 @@ namespace MrMealer.ViewModels
             }
 
             CultureInfo culture = new CultureInfo("en-US");
-            for (int i = 0; i < daysToSunday; i++)
+            var newDays = new List<Day>();
+
+            for (int i = 0; i < daysToAdd; i++)
             {
                 var date = startdate.AddDays(i);
                 string dayName = culture.DateTimeFormat.GetDayName(date.DayOfWeek);
@@ -79,13 +83,31 @@ namespace MrMealer.ViewModels
                     Date = date,
                     Name = culture.TextInfo.ToTitleCase(dayName)
                 };
-
-                _db.Days.Add(newDay);  
+                _db.Days.Add(newDay);
+                Days.Add(newDay);
+                newDays.Add(newDay);
             }
+            _db.SaveChanges();
+            foreach (var day in newDays)
+            {
+                AddMeals(day.Id);
+            }
+            _db.SaveChanges();
+        }
+        private void AddMeals(int dayId)
+        {
+            var existingMeals = _db.Meals.Where(m => m.DayId == dayId).ToList();
+            if (existingMeals.Any())
+                return;
 
-            _db.SaveChanges(); 
+            var meals = new List<Meal>
+            {
+                new Meal { Name = "Breakfast", DayId = dayId },
+                new Meal { Name = "Lunch", DayId = dayId },
+                new Meal { Name = "Dinner", DayId = dayId }
+            };
 
-
+            _db.Meals.AddRange(meals);
         }
 
     }

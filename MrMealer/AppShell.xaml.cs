@@ -12,6 +12,7 @@ namespace MrMealer
             Routing.RegisterRoute("recipeAdd", typeof(RecipeAddPage));
             Routing.RegisterRoute("mainPage", typeof(MainPage));
             Routing.RegisterRoute("plan", typeof(PlanPage));
+            Routing.RegisterRoute("day", typeof(DayPage));
 
         }
     }
