@@ -63,6 +63,21 @@ namespace MrMealer.Database.Migrations
                     b.ToTable("Ingredients");
                 });
 
+            modelBuilder.Entity("MrMealer.Models.IngredientFromApi", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("INTEGER");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("IngredientsfromApi", (string)null);
+                });
+
             modelBuilder.Entity("MrMealer.Models.Meal", b =>
                 {
                     b.Property<int>("Id")

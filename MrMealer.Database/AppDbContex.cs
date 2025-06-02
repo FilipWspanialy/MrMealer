@@ -17,7 +17,7 @@ namespace MrMealer.Database
         public DbSet<Meal> Meals { get; set; }
         public DbSet<Day> Days { get; set; }
         public DbSet<RecipeForMeal> RecipeForMeals { get; set; }
-
+        public DbSet<IngredientFromApi> IngredientsfromApi { get; set; }
 
         public AppDbContext()
         {
@@ -66,6 +66,10 @@ namespace MrMealer.Database
                 .WithMany(m => m.Recipes)
                 .HasForeignKey(rm => rm.MealId)
                 .OnDelete(DeleteBehavior.Cascade);
+
+            modelBuilder.Entity<IngredientFromApi>()
+                .ToTable("IngredientsfromApi")
+                .HasKey(i => i.Id);
 
             base.OnModelCreating(modelBuilder);
         }

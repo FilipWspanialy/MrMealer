@@ -31,7 +31,6 @@ public class ApiService
             await db.SaveChangesAsync();
             foreach (var recipe in recipes)
             {
-                // Sprawdź, czy przepis już istnieje w bazie
                 var exists = db.Recipes.Any(r => r.Name == recipe.Name);
 
                 if (!exists)
@@ -45,6 +44,41 @@ public class ApiService
 
         return recipes;
     }
+    public static async Task<List<IngredientFromApi>> GetIngreAsync()
+    {
+        var url = "https://www.themealdb.com/api/json/v1/1/list.php?i=list";
+        var json = await _client.GetStringAsync(url);
+        var data = JsonConvert.DeserializeObject<ApiResponseIngre>(json);
+
+        if (data.Meals == null)
+            return new();
+
+        var ingres = data.Meals
+            .Where(m => !string.IsNullOrWhiteSpace(m.StrIngredient))
+            .Select(m => m.StrIngredient.Trim().ToLower())
+            .Distinct()
+            .ToList();
+
+        using var db = new AppDbContext();
+
+        var existingNames = db.IngredientsfromApi
+            .Select(x => x.Name.ToLower())
+            .ToHashSet();
+
+        var newIngredients = ingres
+            .Where(name => !existingNames.Contains(name))
+            .Select(name => new IngredientFromApi { Name = name })
+            .ToList();
+
+        if (newIngredients.Any())
+        {
+            db.IngredientsfromApi.AddRange(newIngredients);
+            await db.SaveChangesAsync();
+        }
+
+        return db.IngredientsfromApi.ToList();
+    }
+
 
 }
 

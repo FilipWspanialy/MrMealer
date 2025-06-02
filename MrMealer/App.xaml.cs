@@ -18,7 +18,7 @@ namespace MrMealer
         private async void LoadRecipes()
         {
             var recipes = await ApiService.GetRecipesAsync("chicken");
-            
+            var ingres = await ApiService.GetIngreAsync();
         }
     }
 }

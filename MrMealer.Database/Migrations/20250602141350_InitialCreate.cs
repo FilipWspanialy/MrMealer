@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace MrMealer.Database.Migrations
 {
     /// <inheritdoc />
-    public partial class Initialize : Migration
+    public partial class InitialCreate : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -23,6 +23,19 @@ namespace MrMealer.Database.Migrations
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Days", x => x.Id);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "IngredientsfromApi",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "INTEGER", nullable: false)
+                        .Annotation("Sqlite:Autoincrement", true),
+                    Name = table.Column<string>(type: "TEXT", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_IngredientsfromApi", x => x.Id);
                 });
 
             migrationBuilder.CreateTable(
@@ -146,6 +159,9 @@ namespace MrMealer.Database.Migrations
         {
             migrationBuilder.DropTable(
                 name: "Ingredients");
+
+            migrationBuilder.DropTable(
+                name: "IngredientsfromApi");
 
             migrationBuilder.DropTable(
                 name: "RecipeForMeals");
