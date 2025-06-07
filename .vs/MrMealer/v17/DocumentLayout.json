@@ -3,14 +3,6 @@
   "WorkspaceRootPath": "D:\\source\\repos\\MrMealer\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AA1D5B98-DF2F-4E95-B22E-F21622AA50AD}|MrMealer.Database\\MrMealer.Database.csproj|d:\\source\\repos\\mrmealer\\mrmealer.database\\models\\apiresponseingre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AA1D5B98-DF2F-4E95-B22E-F21622AA50AD}|MrMealer.Database\\MrMealer.Database.csproj|solutionrelative:mrmealer.database\\models\\apiresponseingre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AA1D5B98-DF2F-4E95-B22E-F21622AA50AD}|MrMealer.Database\\MrMealer.Database.csproj|d:\\source\\repos\\mrmealer\\mrmealer.database\\models\\apiingre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AA1D5B98-DF2F-4E95-B22E-F21622AA50AD}|MrMealer.Database\\MrMealer.Database.csproj|solutionrelative:mrmealer.database\\models\\apiingre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{424F663C-2026-4787-BC81-78E294E9D7B6}|MrMealer\\MrMealer.csproj|d:\\source\\repos\\mrmealer\\mrmealer\\api\\apiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{424F663C-2026-4787-BC81-78E294E9D7B6}|MrMealer\\MrMealer.csproj|solutionrelative:mrmealer\\api\\apiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -27,40 +19,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ApiResponseIngre.cs",
-              "DocumentMoniker": "D:\\source\\repos\\MrMealer\\MrMealer.Database\\Models\\ApiResponseIngre.cs",
-              "RelativeDocumentMoniker": "MrMealer.Database\\Models\\ApiResponseIngre.cs",
-              "ToolTip": "D:\\source\\repos\\MrMealer\\MrMealer.Database\\Models\\ApiResponseIngre.cs",
-              "RelativeToolTip": "MrMealer.Database\\Models\\ApiResponseIngre.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-02T14:24:56.327Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ApiIngre.cs",
-              "DocumentMoniker": "D:\\source\\repos\\MrMealer\\MrMealer.Database\\Models\\ApiIngre.cs",
-              "RelativeDocumentMoniker": "MrMealer.Database\\Models\\ApiIngre.cs",
-              "ToolTip": "D:\\source\\repos\\MrMealer\\MrMealer.Database\\Models\\ApiIngre.cs",
-              "RelativeToolTip": "MrMealer.Database\\Models\\ApiIngre.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-02T14:24:50.691Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "ApiService.cs",
               "DocumentMoniker": "D:\\source\\repos\\MrMealer\\MrMealer\\Api\\ApiService.cs",
               "RelativeDocumentMoniker": "MrMealer\\Api\\ApiService.cs",
               "ToolTip": "D:\\source\\repos\\MrMealer\\MrMealer\\Api\\ApiService.cs",
               "RelativeToolTip": "MrMealer\\Api\\ApiService.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAQwD8AAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAACgAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-02T14:22:53.002Z",
+              "WhenOpened": "2025-06-05T11:25:19.236Z",
               "EditorCaption": ""
             }
           ]

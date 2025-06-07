@@ -75,7 +75,7 @@ namespace MrMealer.Database.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("IngredientsfromApi", (string)null);
+                    b.ToTable("IngredientsFromApi", (string)null);
                 });
 
             modelBuilder.Entity("MrMealer.Models.Meal", b =>

@@ -29,25 +29,25 @@
     <AppXManifest Include="D:\source\repos\MrMealer\MrMealer\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2025-06-02T14:23:37.598</Modified>
+      <Modified>2025-06-05T09:36:36.348</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\source\repos\MrMealer\MrMealer\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2025-06-02T14:14:49.385</Modified>
+      <Modified>2025-06-02T16:39:26.063</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\source\repos\MrMealer\MrMealer\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\MrMealer.runtimeconfig.json">
       <PackagePath>MrMealer.runtimeconfig.json</PackagePath>
-      <Modified>2025-06-02T14:23:02.003</Modified>
+      <Modified>2025-06-02T16:39:25.363</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\source\repos\MrMealer\MrMealer\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\MrMealer.dll">
       <PackagePath>MrMealer.dll</PackagePath>
-      <Modified>2025-06-02T14:23:36.666</Modified>
+      <Modified>2025-06-05T09:36:34.108</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\source\repos\MrMealer\MrMealer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>MrMealer.exe</PackagePath>
-      <Modified>2025-06-02T14:23:36.677</Modified>
+      <Modified>2025-06-05T09:36:34.218</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\source\repos\MrMealer\MrMealer\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
@@ -55,23 +55,23 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\source\repos\MrMealer\MrMealer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
       <PackagePath>splashSplashScreen.scale-100.png</PackagePath>
-      <Modified>2025-06-02T14:14:46.155</Modified>
+      <Modified>2025-06-02T16:38:43.477</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\source\repos\MrMealer\MrMealer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png">
       <PackagePath>splashSplashScreen.scale-125.png</PackagePath>
-      <Modified>2025-06-02T14:14:46.175</Modified>
+      <Modified>2025-06-02T16:38:43.497</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\source\repos\MrMealer\MrMealer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png">
       <PackagePath>splashSplashScreen.scale-150.png</PackagePath>
-      <Modified>2025-06-02T14:14:46.195</Modified>
+      <Modified>2025-06-02T16:38:43.527</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\source\repos\MrMealer\MrMealer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png">
       <PackagePath>splashSplashScreen.scale-200.png</PackagePath>
-      <Modified>2025-06-02T14:14:46.235</Modified>
+      <Modified>2025-06-02T16:38:43.557</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\source\repos\MrMealer\MrMealer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
       <PackagePath>splashSplashScreen.scale-400.png</PackagePath>
-      <Modified>2025-06-02T14:14:46.385</Modified>
+      <Modified>2025-06-02T16:38:43.727</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\source\repos\MrMealer\MrMealer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
       <PackagePath>OpenSans-Regular.ttf</PackagePath>
@@ -83,207 +83,207 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\source\repos\MrMealer\MrMealer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
       <PackagePath>appicon.ico</PackagePath>
-      <Modified>2025-06-02T14:14:47.485</Modified>
+      <Modified>2025-06-02T16:38:44.907</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\source\repos\MrMealer\MrMealer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
       <PackagePath>appiconLargeTile.scale-100.png</PackagePath>
-      <Modified>2025-06-02T14:14:47.475</Modified>
+      <Modified>2025-06-02T16:38:44.897</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\source\repos\MrMealer\MrMealer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
       <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
-      <Modified>2025-06-02T14:14:47.475</Modified>
+      <Modified>2025-06-02T16:38:44.897</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\source\repos\MrMealer\MrMealer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
       <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
-      <Modified>2025-06-02T14:14:47.475</Modified>
+      <Modified>2025-06-02T16:38:44.897</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\source\repos\MrMealer\MrMealer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
       <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
-      <Modified>2025-06-02T14:14:47.475</Modified>
+      <Modified>2025-06-02T16:38:44.897</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\source\repos\MrMealer\MrMealer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
       <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
-      <Modified>2025-06-02T14:14:47.475</Modified>
+      <Modified>2025-06-02T16:38:44.897</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\source\repos\MrMealer\MrMealer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-16.png</PackagePath>
-      <Modified>2025-06-02T14:14:47.485</Modified>
+      <Modified>2025-06-02T16:38:44.907</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\source\repos\MrMealer\MrMealer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-24.png</PackagePath>
-      <Modified>2025-06-02T14:14:47.485</Modified>
+      <Modified>2025-06-02T16:38:44.907</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\source\repos\MrMealer\MrMealer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-256.png</PackagePath>
-      <Modified>2025-06-02T14:14:47.485</Modified>
+      <Modified>2025-06-02T16:38:44.907</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\source\repos\MrMealer\MrMealer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-32.png</PackagePath>
-      <Modified>2025-06-02T14:14:47.485</Modified>
+      <Modified>2025-06-02T16:38:44.907</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\source\repos\MrMealer\MrMealer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-48.png</PackagePath>
-      <Modified>2025-06-02T14:14:47.485</Modified>
+      <Modified>2025-06-02T16:38:44.907</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\source\repos\MrMealer\MrMealer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-16.png</PackagePath>
-      <Modified>2025-06-02T14:14:47.485</Modified>
+      <Modified>2025-06-02T16:38:44.907</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\source\repos\MrMealer\MrMealer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-24.png</PackagePath>
-      <Modified>2025-06-02T14:14:47.485</Modified>
+      <Modified>2025-06-02T16:38:44.907</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\source\repos\MrMealer\MrMealer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-256.png</PackagePath>
-      <Modified>2025-06-02T14:14:47.485</Modified>
+      <Modified>2025-06-02T16:38:44.907</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\source\repos\MrMealer\MrMealer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-32.png</PackagePath>
-      <Modified>2025-06-02T14:14:47.485</Modified>
+      <Modified>2025-06-02T16:38:44.907</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\source\repos\MrMealer\MrMealer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-48.png</PackagePath>
-      <Modified>2025-06-02T14:14:47.485</Modified>
+      <Modified>2025-06-02T16:38:44.907</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\source\repos\MrMealer\MrMealer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
       <PackagePath>appiconLogo.scale-100.png</PackagePath>
-      <Modified>2025-06-02T14:14:47.485</Modified>
+      <Modified>2025-06-02T16:38:44.907</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\source\repos\MrMealer\MrMealer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
       <PackagePath>appiconLogo.scale-125.png</PackagePath>
-      <Modified>2025-06-02T14:14:47.485</Modified>
+      <Modified>2025-06-02T16:38:44.907</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\source\repos\MrMealer\MrMealer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
       <PackagePath>appiconLogo.scale-150.png</PackagePath>
-      <Modified>2025-06-02T14:14:47.485</Modified>
+      <Modified>2025-06-02T16:38:44.907</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\source\repos\MrMealer\MrMealer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
       <PackagePath>appiconLogo.scale-200.png</PackagePath>
-      <Modified>2025-06-02T14:14:47.485</Modified>
+      <Modified>2025-06-02T16:38:44.907</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\source\repos\MrMealer\MrMealer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
       <PackagePath>appiconLogo.scale-400.png</PackagePath>
-      <Modified>2025-06-02T14:14:47.485</Modified>
+      <Modified>2025-06-02T16:38:44.907</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\source\repos\MrMealer\MrMealer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
       <PackagePath>appiconLogo.targetsize-16.png</PackagePath>
-      <Modified>2025-06-02T14:14:47.485</Modified>
+      <Modified>2025-06-02T16:38:44.907</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\source\repos\MrMealer\MrMealer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
       <PackagePath>appiconLogo.targetsize-24.png</PackagePath>
-      <Modified>2025-06-02T14:14:47.485</Modified>
+      <Modified>2025-06-02T16:38:44.907</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\source\repos\MrMealer\MrMealer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
       <PackagePath>appiconLogo.targetsize-256.png</PackagePath>
-      <Modified>2025-06-02T14:14:47.485</Modified>
+      <Modified>2025-06-02T16:38:44.907</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\source\repos\MrMealer\MrMealer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
       <PackagePath>appiconLogo.targetsize-32.png</PackagePath>
-      <Modified>2025-06-02T14:14:47.485</Modified>
+      <Modified>2025-06-02T16:38:44.907</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\source\repos\MrMealer\MrMealer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
       <PackagePath>appiconLogo.targetsize-48.png</PackagePath>
-      <Modified>2025-06-02T14:14:47.485</Modified>
+      <Modified>2025-06-02T16:38:44.907</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\source\repos\MrMealer\MrMealer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
       <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
-      <Modified>2025-06-02T14:14:47.475</Modified>
+      <Modified>2025-06-02T16:38:44.897</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\source\repos\MrMealer\MrMealer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
       <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
-      <Modified>2025-06-02T14:14:47.475</Modified>
+      <Modified>2025-06-02T16:38:44.897</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\source\repos\MrMealer\MrMealer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
       <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
-      <Modified>2025-06-02T14:14:47.475</Modified>
+      <Modified>2025-06-02T16:38:44.897</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\source\repos\MrMealer\MrMealer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
       <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
-      <Modified>2025-06-02T14:14:47.475</Modified>
+      <Modified>2025-06-02T16:38:44.897</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\source\repos\MrMealer\MrMealer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
       <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
-      <Modified>2025-06-02T14:14:47.475</Modified>
+      <Modified>2025-06-02T16:38:44.897</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\source\repos\MrMealer\MrMealer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
       <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
-      <Modified>2025-06-02T14:14:47.485</Modified>
+      <Modified>2025-06-02T16:38:44.897</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\source\repos\MrMealer\MrMealer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
       <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
-      <Modified>2025-06-02T14:14:47.485</Modified>
+      <Modified>2025-06-02T16:38:44.897</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\source\repos\MrMealer\MrMealer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
       <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
-      <Modified>2025-06-02T14:14:47.475</Modified>
+      <Modified>2025-06-02T16:38:44.897</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\source\repos\MrMealer\MrMealer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
       <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
-      <Modified>2025-06-02T14:14:47.475</Modified>
+      <Modified>2025-06-02T16:38:44.897</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\source\repos\MrMealer\MrMealer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
       <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
-      <Modified>2025-06-02T14:14:47.475</Modified>
+      <Modified>2025-06-02T16:38:44.897</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\source\repos\MrMealer\MrMealer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
       <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
-      <Modified>2025-06-02T14:14:47.485</Modified>
+      <Modified>2025-06-02T16:38:44.907</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\source\repos\MrMealer\MrMealer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
       <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
-      <Modified>2025-06-02T14:14:47.485</Modified>
+      <Modified>2025-06-02T16:38:44.907</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\source\repos\MrMealer\MrMealer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
       <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
-      <Modified>2025-06-02T14:14:47.485</Modified>
+      <Modified>2025-06-02T16:38:44.907</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\source\repos\MrMealer\MrMealer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
       <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
-      <Modified>2025-06-02T14:14:47.485</Modified>
+      <Modified>2025-06-02T16:38:44.897</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\source\repos\MrMealer\MrMealer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
       <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
-      <Modified>2025-06-02T14:14:47.485</Modified>
+      <Modified>2025-06-02T16:38:44.897</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\source\repos\MrMealer\MrMealer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
       <PackagePath>appiconWideTile.scale-100.png</PackagePath>
-      <Modified>2025-06-02T14:14:47.475</Modified>
+      <Modified>2025-06-02T16:38:44.897</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\source\repos\MrMealer\MrMealer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
       <PackagePath>appiconWideTile.scale-125.png</PackagePath>
-      <Modified>2025-06-02T14:14:47.475</Modified>
+      <Modified>2025-06-02T16:38:44.897</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\source\repos\MrMealer\MrMealer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
       <PackagePath>appiconWideTile.scale-150.png</PackagePath>
-      <Modified>2025-06-02T14:14:47.475</Modified>
+      <Modified>2025-06-02T16:38:44.897</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\source\repos\MrMealer\MrMealer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
       <PackagePath>appiconWideTile.scale-200.png</PackagePath>
-      <Modified>2025-06-02T14:14:47.475</Modified>
+      <Modified>2025-06-02T16:38:44.897</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\source\repos\MrMealer\MrMealer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
       <PackagePath>appiconWideTile.scale-400.png</PackagePath>
-      <Modified>2025-06-02T14:14:47.475</Modified>
+      <Modified>2025-06-02T16:38:44.897</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\source\repos\MrMealer\MrMealer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
       <PackagePath>dotnet_bot.scale-100.png</PackagePath>
-      <Modified>2025-06-02T14:14:47.475</Modified>
+      <Modified>2025-06-02T16:38:44.907</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\source\repos\MrMealer\MrMealer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
       <PackagePath>dotnet_bot.scale-125.png</PackagePath>
-      <Modified>2025-06-02T14:14:47.475</Modified>
+      <Modified>2025-06-02T16:38:44.907</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\source\repos\MrMealer\MrMealer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
       <PackagePath>dotnet_bot.scale-150.png</PackagePath>
-      <Modified>2025-06-02T14:14:47.475</Modified>
+      <Modified>2025-06-02T16:38:44.907</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\source\repos\MrMealer\MrMealer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
       <PackagePath>dotnet_bot.scale-200.png</PackagePath>
-      <Modified>2025-06-02T14:14:47.475</Modified>
+      <Modified>2025-06-02T16:38:44.907</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\source\repos\MrMealer\MrMealer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
       <PackagePath>dotnet_bot.scale-400.png</PackagePath>
-      <Modified>2025-06-02T14:14:47.475</Modified>
+      <Modified>2025-06-02T16:38:44.907</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\filip\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.44\lib\net8.0\Microsoft.Windows.SDK.NET.dll">
       <PackagePath>Microsoft.Windows.SDK.NET.dll</PackagePath>
@@ -639,11 +639,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\source\repos\MrMealer\MrMealer.Database\bin\Debug\net8.0\MrMealer.Database.dll">
       <PackagePath>MrMealer.Database.dll</PackagePath>
-      <Modified>2025-06-02T14:14:33.255</Modified>
+      <Modified>2025-06-05T09:36:27.150</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\source\repos\MrMealer\MrMealer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MrMealer.deps.json">
       <PackagePath>MrMealer.deps.json</PackagePath>
-      <Modified>2025-06-02T14:23:02.156</Modified>
+      <Modified>2025-06-02T16:39:26.733</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\filip\.nuget\packages\humanizer.core\2.14.1\lib\net6.0\Humanizer.dll">
       <PackagePath>Humanizer.dll</PackagePath>

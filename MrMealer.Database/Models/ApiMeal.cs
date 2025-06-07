@@ -1,46 +1,49 @@
 ﻿using Newtonsoft.Json.Linq;
 using Newtonsoft.Json;
 using MrMealer.Models;
-
-public class ApiMeal
+namespace MrMealer.Models
 {
-    [JsonProperty("idMeal")]
-    public string IdMeal { get; set; }
 
-    [JsonProperty("strMeal")]
-    public string StrMeal { get; set; }
-
-    [JsonProperty("strInstructions")]
-    public string StrInstructions { get; set; }
-
-    [JsonProperty("strMealThumb")]
-    public string StrMealThumb { get; set; }
-
-    [JsonExtensionData]
-    public Dictionary<string, JToken> ExtraData { get; set; }
-
-    public List<Ingredient> GetIngredients()
+    public class ApiMeal
     {
-        var ingredients = new List<Ingredient>();
+        [JsonProperty("idMeal")]
+        public string IdMeal { get; set; }
 
-        for (int i = 1; i <= 20; i++)
+        [JsonProperty("strMeal")]
+        public string StrMeal { get; set; }
+
+        [JsonProperty("strInstructions")]
+        public string StrInstructions { get; set; }
+
+        [JsonProperty("strMealThumb")]
+        public string StrMealThumb { get; set; }
+
+        [JsonExtensionData]
+        public Dictionary<string, JToken> ExtraData { get; set; }
+
+        public List<Ingredient> GetIngredients()
         {
-            var ingredientKey = $"strIngredient{i}";
-            var measureKey = $"strMeasure{i}";
+            var ingredients = new List<Ingredient>();
 
-            var ingredientValue = ExtraData.ContainsKey(ingredientKey) ? ExtraData[ingredientKey]?.ToString() : null;
-            var measureValue = ExtraData.ContainsKey(measureKey) ? ExtraData[measureKey]?.ToString() : null;
-
-            if (!string.IsNullOrWhiteSpace(ingredientValue))
+            for (int i = 1; i <= 20; i++)
             {
-                ingredients.Add(new Ingredient
-                {
-                    Name = ingredientValue,
-                    Measure = measureValue
-                });
-            }
-        }
+                var ingredientKey = $"strIngredient{i}";
+                var measureKey = $"strMeasure{i}";
 
-        return ingredients;
+                var ingredientValue = ExtraData.ContainsKey(ingredientKey) ? ExtraData[ingredientKey]?.ToString() : null;
+                var measureValue = ExtraData.ContainsKey(measureKey) ? ExtraData[measureKey]?.ToString() : null;
+
+                if (!string.IsNullOrWhiteSpace(ingredientValue))
+                {
+                    ingredients.Add(new Ingredient
+                    {
+                        Name = ingredientValue,
+                        Measure = measureValue
+                    });
+                }
+            }
+
+            return ingredients;
+        }
     }
 }

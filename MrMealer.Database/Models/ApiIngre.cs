@@ -1,9 +1,12 @@
 ﻿using Newtonsoft.Json.Linq;
 using Newtonsoft.Json;
 using MrMealer.Models;
-
-public class ApiIngre
+namespace MrMealer.Models
 {
-    [JsonProperty("strIngredient")]
-    public string StrIngredient { get; set; }
+
+    public class ApiIngre
+    {
+        [JsonProperty("strIngredient")]
+        public string StrIngredient { get; set; }
+    }
 }

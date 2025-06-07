@@ -8,14 +8,11 @@ public class ApiService
 {
     private static readonly HttpClient _client = new HttpClient();
 
-    public static async Task<List<Recipe>> GetRecipesAsync(string query)
+    public static async Task GetAsync(string query)
     {
         var url = $"https://www.themealdb.com/api/json/v1/1/search.php?s={query}";
         var json = await _client.GetStringAsync(url);
         var data = JsonConvert.DeserializeObject<ApiResponse>(json);
-
-        if (data.Meals == null)
-            return new();
 
         var recipes = data.Meals.Select(m => new Recipe
         {
@@ -23,6 +20,15 @@ public class ApiService
             Instructions = m.StrInstructions,
             ImageUrl = m.StrMealThumb,
             Ingredients = m.GetIngredients()
+        }).ToList();
+
+        var url1 = "https://www.themealdb.com/api/json/v1/1/list.php?i=list";
+        var json1 = await _client.GetStringAsync(url1);
+        var data1 = JsonConvert.DeserializeObject<ApiResponseIngre>(json1);
+
+        var ingres = data1.Meals.Select(m => new IngredientFromApi
+        {
+            Name = m.StrIngredient
         }).ToList();
 
         using (var db = new AppDbContext())
@@ -38,48 +44,31 @@ public class ApiService
                     db.Recipes.Add(recipe);
                 }
             }
-
             await db.SaveChangesAsync();
+            try
+            {
+                foreach (var ing in ingres)
+                {
+                    Console.WriteLine($"Przetwarzanie: {ing.Name}");
+                    if (string.IsNullOrWhiteSpace(ing.Name)) continue;
+
+                    var exists = db.IngredientsFromApi.Any(r => r.Name == ing.Name);
+                    if (!exists)
+                    {
+                        db.IngredientsFromApi.Add(ing);
+                    }
+                }
+
+                await db.SaveChangesAsync();
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Błąd: {ex.Message}");
+                Console.WriteLine(ex.StackTrace);
+            }
         }
-
-        return recipes;
     }
-    public static async Task<List<IngredientFromApi>> GetIngreAsync()
-    {
-        var url = "https://www.themealdb.com/api/json/v1/1/list.php?i=list";
-        var json = await _client.GetStringAsync(url);
-        var data = JsonConvert.DeserializeObject<ApiResponseIngre>(json);
-
-        if (data.Meals == null)
-            return new();
-
-        var ingres = data.Meals
-            .Where(m => !string.IsNullOrWhiteSpace(m.StrIngredient))
-            .Select(m => m.StrIngredient.Trim().ToLower())
-            .Distinct()
-            .ToList();
-
-        using var db = new AppDbContext();
-
-        var existingNames = db.IngredientsfromApi
-            .Select(x => x.Name.ToLower())
-            .ToHashSet();
-
-        var newIngredients = ingres
-            .Where(name => !existingNames.Contains(name))
-            .Select(name => new IngredientFromApi { Name = name })
-            .ToList();
-
-        if (newIngredients.Any())
-        {
-            db.IngredientsfromApi.AddRange(newIngredients);
-            await db.SaveChangesAsync();
-        }
-
-        return db.IngredientsfromApi.ToList();
-    }
-
-
+   
 }
 
 

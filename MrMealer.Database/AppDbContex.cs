@@ -17,12 +17,12 @@ namespace MrMealer.Database
         public DbSet<Meal> Meals { get; set; }
         public DbSet<Day> Days { get; set; }
         public DbSet<RecipeForMeal> RecipeForMeals { get; set; }
-        public DbSet<IngredientFromApi> IngredientsfromApi { get; set; }
+        public DbSet<IngredientFromApi> IngredientsFromApi { get; set; }
 
         public AppDbContext()
         {
             _dbPath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "recipes.db");
-            Console.WriteLine(_dbPath);
+            System.Diagnostics.Debug.WriteLine(_dbPath);
         }
 
         protected override void OnConfiguring(DbContextOptionsBuilder options)
@@ -68,7 +68,7 @@ namespace MrMealer.Database
                 .OnDelete(DeleteBehavior.Cascade);
 
             modelBuilder.Entity<IngredientFromApi>()
-                .ToTable("IngredientsfromApi")
+                .ToTable("IngredientsFromApi")
                 .HasKey(i => i.Id);
 
             base.OnModelCreating(modelBuilder);
