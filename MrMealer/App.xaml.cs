@@ -1,7 +1,7 @@
 ﻿
 using Microsoft.EntityFrameworkCore;
 using MrMealer.Database;
-using MrMealer.Models;
+using MrMealer.Database.Models;
 using static Microsoft.EntityFrameworkCore.DbLoggerCategory;
 
 namespace MrMealer

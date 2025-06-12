@@ -1,5 +1,5 @@
 using MrMealer.Database;
-using MrMealer.Models;
+using MrMealer.Database.Models;
 using MrMealer.ViewModels;
 
 namespace MrMealer.Views

@@ -1,15 +1,15 @@
 using MrMealer.Database;
-using MrMealer.Models;
+using MrMealer.Database.Models;
 using MrMealer.ViewModels;
 
 namespace MrMealer.Views
 {
     public partial class RecipesPage : ContentPage
     {
-        private RecipesViewModel _vm;
         public RecipesPage()
         {
             InitializeComponent();
+            BindingContext = new RecipesViewModel();
         }
 
         private async void OnRecipeSelected(object sender, SelectionChangedEventArgs e)
@@ -28,13 +28,10 @@ namespace MrMealer.Views
         {
             base.OnAppearing();
 
-            if (_vm == null)
+            if (BindingContext is RecipesViewModel vm)
             {
-                _vm = new RecipesViewModel();
-                BindingContext = _vm;
+                await vm.LoadRecipesAsync();
             }
-
-            await _vm.LoadRecipesAsync();
         }
 
     }

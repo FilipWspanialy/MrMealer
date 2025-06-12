@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MrMealer.Models
+namespace MrMealer.Database.Models
 {
     public class RecipeForMeal
     {

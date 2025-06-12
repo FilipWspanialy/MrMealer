@@ -10,6 +10,15 @@ namespace MrMealer.Views
             InitializeComponent();
             BindingContext = new RecipeDetailsViewModel();
         }
-        
+        protected override async void OnAppearing()
+        {
+            base.OnAppearing();
+
+            if (BindingContext is RecipeDetailsViewModel vm)
+            {
+                await vm.LoadRecipe();
+            }
+        }
+
     }
 }

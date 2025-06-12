@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using MrMealer.Database;
-using MrMealer.Models;
+using MrMealer.Database.Models;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;

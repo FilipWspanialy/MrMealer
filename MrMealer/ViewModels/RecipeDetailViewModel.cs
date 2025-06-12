@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using MrMealer.Database;
-using MrMealer.Models;
+using MrMealer.Database.Models;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
@@ -30,7 +30,6 @@ namespace MrMealer.ViewModels
                 if (recipeId != value)
                 {
                     recipeId = value;
-                    LoadRecipe();
                 }
             }
         }
@@ -47,6 +46,7 @@ namespace MrMealer.ViewModels
         public RecipeDetailsViewModel()
         {
             _db = new AppDbContext();
+            Ingredients = new ObservableCollection<Ingredient>();
             EditCommand = new Command(OnEdit, CanEdit);
             DeleteCommand = new Command(OnDelete, CanEdit);
         }
@@ -54,14 +54,27 @@ namespace MrMealer.ViewModels
         public event PropertyChangedEventHandler PropertyChanged;
         private void OnPropertyChanged([CallerMemberName] string name = "") =>
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(name));
-        private void LoadRecipe()
+        public async Task LoadRecipe()
         {
-            Recipe = _db.Recipes
+            using var db = new AppDbContext();
+
+            var loadedRecipe = await db.Recipes
                 .Include(r => r.Ingredients)
-                .FirstOrDefault(r => r.Id == RecipeId);
-            Ingredients = new ObservableCollection<Ingredient>(Recipe.Ingredients);
-            OnPropertyChanged(nameof(Ingredients));
+                .FirstOrDefaultAsync(r => r.Id == RecipeId);
+
+            if (loadedRecipe != null)
+            {
+                Recipe = loadedRecipe;
+
+                Ingredients.Clear();
+                foreach (var i in Recipe.Ingredients)
+                    Ingredients.Add(i);
+
+                OnPropertyChanged(nameof(Ingredients));
+            }
         }
+
+
         private bool CanEdit()
         {
             return Recipe?.IsUserCreated == true;

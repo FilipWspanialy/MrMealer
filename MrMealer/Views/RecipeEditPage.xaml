@@ -3,7 +3,9 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:viewModels="clr-namespace:MrMealer.ViewModels"
              x:Class="MrMealer.Views.RecipeEditPage"
+             x:Name="IngredientPickerPage"
              Title="Edit recipe">
+
     <ScrollView>
         <VerticalStackLayout Padding="20" Spacing="10">
 
@@ -16,8 +18,13 @@
                 <CollectionView.ItemTemplate>
                     <DataTemplate>
                         <HorizontalStackLayout Spacing="10">
-                            <Entry Placeholder="Name" Text="{Binding Name}" WidthRequest="150"/>
+                            <Picker 
+                                WidthRequest="150"
+                                ItemsSource="{Binding Source={x:Reference IngredientPickerPage}, Path=BindingContext.AvailableIngredients}"
+                                ItemDisplayBinding="{Binding Name}"
+                                SelectedItem="{Binding SelectedIngredient}" />
                             <Entry Placeholder="Measure" Text="{Binding Measure}" WidthRequest="100"/>
+                            <Button Text="❌" Command="{Binding RemoveCommand}" WidthRequest="40" HeightRequest="40"/>
                         </HorizontalStackLayout>
                     </DataTemplate>
                 </CollectionView.ItemTemplate>

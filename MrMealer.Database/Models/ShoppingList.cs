@@ -4,10 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MrMealer.Models
+namespace MrMealer.Database.Models
 {
-    public class ShoppingList 
-    { 
+    public class ShoppingList
+    {
         public List<Ingredient> Ingredients { get; set; } = new List<Ingredient>();
     }
 }

@@ -1,5 +1,5 @@
 ﻿using MrMealer.Database;
-using MrMealer.Models;
+using MrMealer.Database.Models;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
@@ -34,22 +34,39 @@ namespace MrMealer.ViewModels
                 OnPropertyChanged();
             }
         }
-        public ObservableCollection<Ingredient> Ingredients { get; set; } = new();
+        public ObservableCollection<IngredientFromApi> AvailableIngredients { get; set; } = new();
+        public ObservableCollection<IngredientViewModel> Ingredients { get; set; } = new();
         public ICommand AddIngredientCommand { get; }
         public ICommand SaveRecipeCommand { get; }
         public RecipeAddViewModel()
         {
             AddIngredientCommand = new Command(AddIngredient);
             SaveRecipeCommand = new Command(async () => await SaveRecipeAsync());
+            LoadAvailableIngredients();
         }
+
+        private void LoadAvailableIngredients()
+        {
+            using var db = new AppDbContext();
+            var ingredientsFromDb = db.IngredientsFromApi.ToList();
+            AvailableIngredients = new ObservableCollection<IngredientFromApi>(ingredientsFromDb);
+        }
+
         private void AddIngredient()
         {
 
-            Ingredients.Add(new Ingredient());
+            Ingredients.Add(new IngredientViewModel(RemoveIngredient));
         }
+
         private async Task SaveRecipeAsync()
         {
-            var validIngredients = Ingredients.Where(i => !string.IsNullOrWhiteSpace(i.Name)).ToList();
+            var validIngredients = Ingredients
+                .Where(i => i.SelectedIngredient != null && !string.IsNullOrWhiteSpace(i.Measure))
+                .Select(i => new Ingredient
+                {
+                    Name = i.SelectedIngredient.Name,
+                    Measure = i.Measure
+                }).ToList();
 
             if (string.IsNullOrWhiteSpace(RecipeName) || validIngredients.Count == 0)
             {
@@ -61,7 +78,7 @@ namespace MrMealer.ViewModels
             {
                 Name = RecipeName,
                 Instructions = Instructions,
-                Ingredients = validIngredients.ToList(),
+                Ingredients = validIngredients,
                 IsUserCreated = true
             };
 
@@ -77,5 +94,11 @@ namespace MrMealer.ViewModels
 
             await Shell.Current.GoToAsync("..");
         }
+        private void RemoveIngredient(IngredientViewModel ingredient)
+        {
+            Ingredients.Remove(ingredient);
+        }
+
+
     }
 }

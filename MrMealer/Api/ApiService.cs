@@ -1,8 +1,8 @@
 ﻿using System.Net.Http;
 using System.Threading.Tasks;
 using Newtonsoft.Json;
-using MrMealer.Models;
 using MrMealer.Database;
+using MrMealer.Database.Models;
 
 public class ApiService
 {
@@ -13,6 +13,10 @@ public class ApiService
         var url = $"https://www.themealdb.com/api/json/v1/1/search.php?s={query}";
         var json = await _client.GetStringAsync(url);
         var data = JsonConvert.DeserializeObject<ApiResponse>(json);
+        var url1 = "https://www.themealdb.com/api/json/v1/1/list.php?i=list";
+        var json1 = await _client.GetStringAsync(url1);
+        var data1 = JsonConvert.DeserializeObject<ApiResponseIngre>(json1);
+
 
         var recipes = data.Meals.Select(m => new Recipe
         {
@@ -22,10 +26,6 @@ public class ApiService
             Ingredients = m.GetIngredients()
         }).ToList();
 
-        var url1 = "https://www.themealdb.com/api/json/v1/1/list.php?i=list";
-        var json1 = await _client.GetStringAsync(url1);
-        var data1 = JsonConvert.DeserializeObject<ApiResponseIngre>(json1);
-
         var ingres = data1.Meals.Select(m => new IngredientFromApi
         {
             Name = m.StrIngredient
@@ -33,7 +33,8 @@ public class ApiService
 
         using (var db = new AppDbContext())
         {
-            db.Recipes.RemoveRange(db.Recipes.Where(x=>x.IsUserCreated == false));
+            db.Recipes.RemoveRange(db.Recipes.Where(x => x.IsUserCreated == false));
+            db.IngredientsFromApi.RemoveRange(db.IngredientsFromApi);
             await db.SaveChangesAsync();
             foreach (var recipe in recipes)
             {
@@ -44,31 +45,14 @@ public class ApiService
                     db.Recipes.Add(recipe);
                 }
             }
+            foreach(var ingredient in ingres)
+            {
+                db.IngredientsFromApi.Add(ingredient);
+            }
             await db.SaveChangesAsync();
-            try
-            {
-                foreach (var ing in ingres)
-                {
-                    Console.WriteLine($"Przetwarzanie: {ing.Name}");
-                    if (string.IsNullOrWhiteSpace(ing.Name)) continue;
-
-                    var exists = db.IngredientsFromApi.Any(r => r.Name == ing.Name);
-                    if (!exists)
-                    {
-                        db.IngredientsFromApi.Add(ing);
-                    }
-                }
-
-                await db.SaveChangesAsync();
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine($"Błąd: {ex.Message}");
-                Console.WriteLine(ex.StackTrace);
-            }
         }
     }
-   
+
 }
 
 

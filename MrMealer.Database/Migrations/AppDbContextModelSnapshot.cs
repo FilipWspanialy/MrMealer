@@ -15,9 +15,9 @@ namespace MrMealer.Database.Migrations
         protected override void BuildModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
-            modelBuilder.HasAnnotation("ProductVersion", "9.0.4");
+            modelBuilder.HasAnnotation("ProductVersion", "9.0.5");
 
-            modelBuilder.Entity("MrMealer.Models.Day", b =>
+            modelBuilder.Entity("MrMealer.Database.Models.Day", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -35,10 +35,13 @@ namespace MrMealer.Database.Migrations
                     b.ToTable("Days");
                 });
 
-            modelBuilder.Entity("MrMealer.Models.Ingredient", b =>
+            modelBuilder.Entity("MrMealer.Database.Models.Ingredient", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
+                        .HasColumnType("INTEGER");
+
+                    b.Property<bool>("Isbought")
                         .HasColumnType("INTEGER");
 
                     b.Property<string>("Measure")
@@ -63,7 +66,7 @@ namespace MrMealer.Database.Migrations
                     b.ToTable("Ingredients");
                 });
 
-            modelBuilder.Entity("MrMealer.Models.IngredientFromApi", b =>
+            modelBuilder.Entity("MrMealer.Database.Models.IngredientFromApi", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -78,7 +81,7 @@ namespace MrMealer.Database.Migrations
                     b.ToTable("IngredientsFromApi", (string)null);
                 });
 
-            modelBuilder.Entity("MrMealer.Models.Meal", b =>
+            modelBuilder.Entity("MrMealer.Database.Models.Meal", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -98,7 +101,7 @@ namespace MrMealer.Database.Migrations
                     b.ToTable("Meals");
                 });
 
-            modelBuilder.Entity("MrMealer.Models.Recipe", b =>
+            modelBuilder.Entity("MrMealer.Database.Models.Recipe", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -123,7 +126,7 @@ namespace MrMealer.Database.Migrations
                     b.ToTable("Recipes");
                 });
 
-            modelBuilder.Entity("MrMealer.Models.RecipeForMeal", b =>
+            modelBuilder.Entity("MrMealer.Database.Models.RecipeForMeal", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -148,13 +151,13 @@ namespace MrMealer.Database.Migrations
                     b.ToTable("RecipeForMeals");
                 });
 
-            modelBuilder.Entity("MrMealer.Models.Ingredient", b =>
+            modelBuilder.Entity("MrMealer.Database.Models.Ingredient", b =>
                 {
-                    b.HasOne("MrMealer.Models.RecipeForMeal", null)
+                    b.HasOne("MrMealer.Database.Models.RecipeForMeal", null)
                         .WithMany("Ingredients")
                         .HasForeignKey("RecipeForMealId");
 
-                    b.HasOne("MrMealer.Models.Recipe", "Recipe")
+                    b.HasOne("MrMealer.Database.Models.Recipe", "Recipe")
                         .WithMany("Ingredients")
                         .HasForeignKey("RecipeId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -163,9 +166,9 @@ namespace MrMealer.Database.Migrations
                     b.Navigation("Recipe");
                 });
 
-            modelBuilder.Entity("MrMealer.Models.Meal", b =>
+            modelBuilder.Entity("MrMealer.Database.Models.Meal", b =>
                 {
-                    b.HasOne("MrMealer.Models.Day", "Day")
+                    b.HasOne("MrMealer.Database.Models.Day", "Day")
                         .WithMany("Meals")
                         .HasForeignKey("DayId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -174,15 +177,15 @@ namespace MrMealer.Database.Migrations
                     b.Navigation("Day");
                 });
 
-            modelBuilder.Entity("MrMealer.Models.RecipeForMeal", b =>
+            modelBuilder.Entity("MrMealer.Database.Models.RecipeForMeal", b =>
                 {
-                    b.HasOne("MrMealer.Models.Meal", "Meal")
+                    b.HasOne("MrMealer.Database.Models.Meal", "Meal")
                         .WithMany("Recipes")
                         .HasForeignKey("MealId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("MrMealer.Models.Recipe", "Recipe")
+                    b.HasOne("MrMealer.Database.Models.Recipe", "Recipe")
                         .WithMany()
                         .HasForeignKey("RecipeId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -193,22 +196,22 @@ namespace MrMealer.Database.Migrations
                     b.Navigation("Recipe");
                 });
 
-            modelBuilder.Entity("MrMealer.Models.Day", b =>
+            modelBuilder.Entity("MrMealer.Database.Models.Day", b =>
                 {
                     b.Navigation("Meals");
                 });
 
-            modelBuilder.Entity("MrMealer.Models.Meal", b =>
+            modelBuilder.Entity("MrMealer.Database.Models.Meal", b =>
                 {
                     b.Navigation("Recipes");
                 });
 
-            modelBuilder.Entity("MrMealer.Models.Recipe", b =>
+            modelBuilder.Entity("MrMealer.Database.Models.Recipe", b =>
                 {
                     b.Navigation("Ingredients");
                 });
 
-            modelBuilder.Entity("MrMealer.Models.RecipeForMeal", b =>
+            modelBuilder.Entity("MrMealer.Database.Models.RecipeForMeal", b =>
                 {
                     b.Navigation("Ingredients");
                 });
