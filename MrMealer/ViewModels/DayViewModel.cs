@@ -1,71 +1,76 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using MrMealer.Database;
 using MrMealer.Database.Models;
-using System;
-using System.Collections.Generic;
 using System.Collections.ObjectModel;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.ComponentModel;
+using System.Runtime.CompilerServices;
+using System.Windows.Input;
 
-namespace MrMealer.ViewModels
+namespace MrMealer.ViewModels;
+
+[QueryProperty(nameof(DayId), "dayId")]
+public class DayViewModel : INotifyPropertyChanged
 {
-    [QueryProperty(nameof(Id), "dayId")]
-    public class DayViewModel
+    private readonly AppDbContext _db;
+    public ObservableCollection<Meal> Meals { get; set; } = new();
+    public ObservableCollection<Recipe> Recipes { get; set; } = new();
+
+    public int DayId { get; set; }
+
+    public ICommand SaveMealsCommand { get; }
+
+    public DayViewModel()
     {
-        private readonly AppDbContext _db;
-        public ObservableCollection<Meal> Meals { get; } = new();
-        public ObservableCollection<Recipe> Recipes { get; } = new();
-        public ObservableCollection<RecipeForMeal> RecipesForMeal { get; } = new();
-        private int _id;
-        public int Id
-        {
-            get => _id;
-            set
-            {
-                _id = value;
-                LoadMeals();
-                LoadRecipes();
-            }
-        }
-        public DayViewModel()
-        {
-            _db = new AppDbContext();
-        }
-        private void LoadRecipes()
-        {
-            Recipes.Clear();
-            foreach (var recipe in _db.Recipes.ToList())
-            {
-                Recipes.Add(recipe);
-            }
-        }
-        private void LoadMeals()
-        {
-            Meals.Clear();
-            var meals = _db.Meals
-                .Include(m => m.Recipes)
-                .Where(x => x.DayId == Id)
-                .ToList();
-
-            foreach (var meal in meals)
-            {
-                Meals.Add(meal);
-            }
-        }
-        public void AddRecipeToMeal(int mealId, int recipeId)
-        {
-            var recipeForMeal = new RecipeForMeal
-            {
-                MealId = mealId,
-                RecipeId = recipeId,
-                RecipeName = _db.Recipes.Where(x=>x.Id == recipeId).GetType().Name
-            };
-
-            _db.RecipeForMeals.Add(recipeForMeal);
-            _db.SaveChanges();
-
-        }
-
+        _db = new AppDbContext();
+        SaveMealsCommand = new Command(async () => await SaveMealsAsync());
     }
+
+    public async Task LoadDataAsync()
+    {
+        var recipes = await _db.Recipes.ToListAsync();
+        Recipes = new ObservableCollection<Recipe>(recipes);
+        OnPropertyChanged(nameof(Recipes));
+
+        var meals = await _db.Meals
+            .Include(m => m.Recipes)
+            .ThenInclude(rfm => rfm.Recipe)
+            .Where(m => m.DayId == DayId)
+            .ToListAsync();
+
+        foreach (var meal in meals)
+        {
+            var recipeId = meal.Recipes.FirstOrDefault()?.RecipeId;
+            meal.SelectedRecipe = Recipes.FirstOrDefault(r => r.Id == recipeId);
+        }
+
+        Meals = new ObservableCollection<Meal>(meals);
+        OnPropertyChanged(nameof(Meals));
+    }
+
+    private async Task SaveMealsAsync()
+    {
+        foreach (var meal in Meals)
+        {
+            var existingLinks = await _db.RecipeForMeals.Where(rfm => rfm.MealId == meal.Id).ToListAsync();
+            _db.RecipeForMeals.RemoveRange(existingLinks);
+
+            if (meal.SelectedRecipe != null)
+            {
+                _db.RecipeForMeals.Add(new RecipeForMeal
+                {
+                    MealId = meal.Id,
+                    RecipeId = meal.SelectedRecipe.Id,
+                    RecipeName = meal.SelectedRecipe.Name
+                });
+            }
+        }
+
+        await _db.SaveChangesAsync();
+        await Application.Current.MainPage.DisplayAlert("Saved", "Recipes assigned to meals successfully.", "OK");
+        await Shell.Current.GoToAsync("..");
+    }
+
+    public event PropertyChangedEventHandler PropertyChanged;
+    private void OnPropertyChanged([CallerMemberName] string name = null) =>
+        PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(name));
 }

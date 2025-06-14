@@ -37,22 +37,33 @@ namespace MrMealer.ViewModels
         private void LoadDays()
         {
             Days.Clear();
+
+            var outdatedDays = _db.Days.Where(d => d.Date < DateTime.Today).ToList();
+            if (outdatedDays.Any())
+            {
+                foreach (var oldDay in outdatedDays)
+                {
+                    var meals = _db.Meals.Where(m => m.DayId == oldDay.Id).ToList();
+                    _db.Meals.RemoveRange(meals);
+
+                    _db.Days.Remove(oldDay);
+                }
+                _db.SaveChanges();
+            }
+
             if (!_db.Days.Any())
             {
                 AddWeek();
-
             }
+
             foreach (var day in _db.Days.OrderBy(r => r.Id).ToList())
             {
-                //_db.Days.Remove(day);
                 Days.Add(day);
                 if (day.Date != null)
                 {
                     _lastdate = (DateTime)(day.Date ?? null);
                 }
             }
-            //_db.SaveChanges();
-
         }
         private void AddWeek()
         {
@@ -67,7 +78,7 @@ namespace MrMealer.ViewModels
             }
             else
             {
-                startdate = _lastdate;
+                startdate = _lastdate.AddDays(1);
             }
 
             CultureInfo culture = new CultureInfo("en-US");

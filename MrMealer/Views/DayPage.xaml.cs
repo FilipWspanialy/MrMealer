@@ -1,29 +1,24 @@
-using MrMealer.Database;
-using MrMealer.Database.Models;
 using MrMealer.ViewModels;
 
 namespace MrMealer.Views
 {
-	public partial class DayPage : ContentPage
-	{
-		public DayPage()
-		{
-			InitializeComponent();
-			BindingContext = new DayViewModel();
-		}
-        private void OnRecipeSelected(object sender, EventArgs e)
-        {
-            var picker = (Picker)sender;
-            var selectedRecipe = (Recipe)picker.SelectedItem;
+    public partial class DayPage : ContentPage
+    {
+        private DayViewModel vm;
 
-            if (picker.BindingContext is Meal meal && selectedRecipe != null)
-            {
-                if (BindingContext is DayViewModel vm)
-                {
-                    vm.AddRecipeToMeal(meal.Id, selectedRecipe.Id);
-                }
-            }
+        public DayPage()
+        {
+            InitializeComponent();
+            vm = new DayViewModel();
+            BindingContext = vm;
         }
 
+        protected override async void OnAppearing()
+        {
+            base.OnAppearing();
+
+            if (vm.DayId > 0)
+                await vm.LoadDataAsync();
+        }
     }
 }
