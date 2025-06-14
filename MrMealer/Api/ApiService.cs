@@ -33,21 +33,27 @@ public class ApiService
 
         using (var db = new AppDbContext())
         {
-            db.Recipes.RemoveRange(db.Recipes.Where(x => x.IsUserCreated == false));
-            db.IngredientsFromApi.RemoveRange(db.IngredientsFromApi);
-            await db.SaveChangesAsync();
-            foreach (var recipe in recipes)
+            //db.Recipes.RemoveRange(db.Recipes.Where(x => x.IsUserCreated == false));
+            //db.IngredientsFromApi.RemoveRange(db.IngredientsFromApi);
+            //await db.SaveChangesAsync();
+            if (!db.Recipes.Any())
             {
-                var exists = db.Recipes.Any(r => r.Name == recipe.Name);
-
-                if (!exists)
+                foreach (var recipe in recipes)
                 {
-                    db.Recipes.Add(recipe);
+                    var exists = db.Recipes.Any(r => r.Name == recipe.Name);
+
+                    if (!exists)
+                    {
+                        db.Recipes.Add(recipe);
+                    }
                 }
             }
-            foreach(var ingredient in ingres)
+            if (!db.IngredientsFromApi.Any())
             {
-                db.IngredientsFromApi.Add(ingredient);
+                foreach (var ingredient in ingres)
+                {
+                    db.IngredientsFromApi.Add(ingredient);
+                }
             }
             await db.SaveChangesAsync();
         }

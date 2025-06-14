@@ -92,3 +92,9 @@ build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MrMealer.Views.RecipesPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\RecipesPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\RecipesPage.xaml
+
+[D:/source/repos/MrMealer/MrMealer/Views/ShoppingList.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MrMealer.Views.ShoppingList.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\ShoppingList.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\ShoppingList.xaml

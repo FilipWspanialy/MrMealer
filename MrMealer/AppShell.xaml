@@ -28,7 +28,8 @@
     <FlyoutItem Title="Shopping list">
         <Tab>
             <ShellContent 
-                Title="Shopping list" />
+                Title="Shopping list"
+                ContentTemplate="{DataTemplate views:ShoppingListPage}" />
         </Tab>
     </FlyoutItem>
     
