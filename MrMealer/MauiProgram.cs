@@ -1,4 +1,5 @@
-﻿using Microsoft.Extensions.Logging;
+﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Logging;
 using MrMealer.Database;
 
 namespace MrMealer
@@ -23,7 +24,16 @@ namespace MrMealer
             builder.Logging.AddDebug();
 #endif
 
-            return builder.Build();
+            var app = builder.Build();
+
+            // Wymuszamy migrację bazy przy starcie
+            using (var scope = app.Services.CreateScope())
+            {
+                var db = scope.ServiceProvider.GetRequiredService<AppDbContext>();
+                db.Database.Migrate();  // <-- tutaj stosujemy migracje
+            }
+
+            return app;
         }
     }
 }
