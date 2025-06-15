@@ -4,33 +4,57 @@
              xmlns:viewModels="clr-namespace:MrMealer.ViewModels"
              x:Class="MrMealer.Views.RecipeAddPage"
              x:Name="IngredientPickerPage"
-             Title="Add recipe">
+             Title="Add recipe"
+             BackgroundColor="{StaticResource BackgroundColor}">
+
     <ScrollView>
-        <VerticalStackLayout Padding="20" Spacing="10">
+        <VerticalStackLayout Padding="20" Spacing="15">
 
-            <Entry Placeholder="Recipe name" Text="{Binding RecipeName}" />
-            <Editor Placeholder="Instructions" Text="{Binding Instructions}" AutoSize="TextChanges" />
+            <Entry Placeholder="Recipe name"
+                   Text="{Binding RecipeName}" />
 
-            <Label Text="Ingredients:" FontAttributes="Bold" />
+            <Editor Placeholder="Instructions"
+                    Text="{Binding Instructions}"
+                    AutoSize="TextChanges" />
+
+            <Label Text="Ingredients:"
+                   FontAttributes="Bold"
+                   TextColor="{StaticResource TextColor}" />
 
             <CollectionView ItemsSource="{Binding Ingredients}">
                 <CollectionView.ItemTemplate>
                     <DataTemplate>
-                        <HorizontalStackLayout Spacing="10">
-                            <Picker 
-                                WidthRequest="150"
-                                ItemsSource="{Binding Source={x:Reference IngredientPickerPage}, Path=BindingContext.AvailableIngredients}"
-                                ItemDisplayBinding="{Binding Name}"
-                                SelectedItem="{Binding SelectedIngredient}" />
-                            <Entry Placeholder="Measure" Text="{Binding Measure}" WidthRequest="100"/>
-                            <Button Text="❌" Command="{Binding RemoveCommand}" WidthRequest="40" HeightRequest="40"/>
-                        </HorizontalStackLayout>
+                        <Frame HasShadow="False" Padding="10">
+                            <HorizontalStackLayout Spacing="10">
+
+                                <Picker WidthRequest="150"
+                                        ItemsSource="{Binding Source={x:Reference IngredientPickerPage}, Path=BindingContext.AvailableIngredients}"
+                                        ItemDisplayBinding="{Binding Name}"
+                                        SelectedItem="{Binding SelectedIngredient}" />
+
+                                <Entry Placeholder="Measure"
+                                       Text="{Binding Measure}"
+                                       WidthRequest="100" />
+
+                                <Button Text="❌"
+                                        Command="{Binding RemoveCommand}"
+                                        WidthRequest="40"
+                                        HeightRequest="40"
+                                        BackgroundColor="#ef4444"
+                                        CornerRadius="20"
+                                        FontSize="18"
+                                        Padding="0" />
+                            </HorizontalStackLayout>
+                        </Frame>
                     </DataTemplate>
                 </CollectionView.ItemTemplate>
             </CollectionView>
 
-            <Button Text="Add Ingredient" Command="{Binding AddIngredientCommand}" />
-            <Button Text="Save Recipe" Command="{Binding SaveRecipeCommand}" />
+            <Button Text="Add Ingredient"
+                    Command="{Binding AddIngredientCommand}" />
+
+            <Button Text="Save Recipe"
+                    Command="{Binding SaveRecipeCommand}" />
 
         </VerticalStackLayout>
     </ScrollView>

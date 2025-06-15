@@ -12,9 +12,9 @@ namespace MrMealer.Views
             BindingContext = new RecipesViewModel();
         }
 
-        private async void OnRecipeSelected(object sender, SelectionChangedEventArgs e)
+        private async void OnRecipeTapped(object sender, EventArgs e)
         {
-            if (e.CurrentSelection.FirstOrDefault() is Recipe selectedRecipe)
+            if (sender is Frame frame && frame.BindingContext is Recipe selectedRecipe)
             {
                 await Shell.Current.GoToAsync($"recipeDetails?recipeId={selectedRecipe.Id}");
             }

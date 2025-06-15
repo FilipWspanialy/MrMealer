@@ -4,28 +4,34 @@
              xmlns:viewModels="clr-namespace:MrMealer.ViewModels"
              x:Class="MrMealer.Views.DayPage"
              x:Name="DayEditPage"
-             Title="Edit Day">
+             Title="Edit Day"
+             BackgroundColor="{StaticResource BackgroundColor}">
 
     <ScrollView>
         <VerticalStackLayout Padding="20" Spacing="15">
-            <Label Text="Edit meals for the day" FontSize="Medium" FontAttributes="Bold"/>
+
+            <Label Text="Edit meals for the day"
+                   Style="{StaticResource HeaderLabel}" />
 
             <CollectionView ItemsSource="{Binding Meals}">
                 <CollectionView.ItemTemplate>
                     <DataTemplate>
-                        <VerticalStackLayout Spacing="10">
-                            <Label Text="{Binding Name}" FontAttributes="Bold"/>
+                        <Frame HasShadow="False">
+                            <VerticalStackLayout Spacing="10">
+                                <Label Text="{Binding Name}" FontAttributes="Bold" />
 
-                            <Picker Title="Select recipe"
-                                    ItemsSource="{Binding Source={x:Reference DayEditPage}, Path=BindingContext.Recipes}"
-                                    ItemDisplayBinding="{Binding Name}"
-                                    SelectedItem="{Binding SelectedRecipe}" />
-                        </VerticalStackLayout>
+                                <Picker Title="Select recipe"
+                                        ItemsSource="{Binding Source={x:Reference DayEditPage}, Path=BindingContext.Recipes}"
+                                        ItemDisplayBinding="{Binding Name}"
+                                        SelectedItem="{Binding SelectedRecipe}" />
+                            </VerticalStackLayout>
+                        </Frame>
                     </DataTemplate>
                 </CollectionView.ItemTemplate>
             </CollectionView>
 
-            <Button Text="Save Changes" Command="{Binding SaveMealsCommand}" />
+            <Button Text="Save Changes"
+                    Command="{Binding SaveMealsCommand}" />
         </VerticalStackLayout>
     </ScrollView>
 </ContentPage>

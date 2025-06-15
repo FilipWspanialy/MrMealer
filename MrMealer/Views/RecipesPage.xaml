@@ -2,44 +2,53 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MrMealer.Views.RecipesPage"
-             Title="Recipes">
+             Title="Recipes"
+             BackgroundColor="{StaticResource BackgroundColor}">
     <ScrollView>
-        <VerticalStackLayout>
+        <VerticalStackLayout Padding="20" Spacing="15">
+
             <Button Text="Add New Recipe"
                     Clicked="OnAddRecipeClicked"
                     HorizontalOptions="Center" />
-            <CollectionView ItemsSource="{Binding Recipes}" SelectionMode="Single"  SelectionChanged="OnRecipeSelected">
+
+            <CollectionView ItemsSource="{Binding Recipes}"
+                            SelectionMode="None"
+                            Margin="0,5">
+
                 <CollectionView.ItemsLayout>
-                    <GridItemsLayout Orientation="Vertical"
-                         Span="3" />
+                    <GridItemsLayout Orientation="Vertical" Span="2" />
                 </CollectionView.ItemsLayout>
+
                 <CollectionView.ItemTemplate>
                     <DataTemplate>
-                        <Frame HeightRequest="200"
-                               Margin="10"
-                               CornerRadius="15"
-                               HasShadow="True"
-                               BackgroundColor="White">
+                        <Frame Padding="0" HasShadow="True" Margin="5">
+                            <Frame.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="OnRecipeTapped" />
+                            </Frame.GestureRecognizers>
+
                             <Grid>
                                 <Grid.RowDefinitions>
                                     <RowDefinition Height="3*" />
                                     <RowDefinition Height="1*" />
                                 </Grid.RowDefinitions>
+
                                 <Image Source="{Binding ImageUrl}"
                                        Aspect="AspectFill"
-                                       Grid.Row="0" />
+                                       Grid.Row="0"
+                                       HeightRequest="120"
+                                       WidthRequest="200" />
+
                                 <Label Text="{Binding Name}"
-                                       TextColor="Black"
-                                       FontAttributes="Bold"
-                                       FontSize="16"
-                                       HorizontalOptions="Center"
                                        Grid.Row="1"
-                                       Margin="5" />
+                                       HorizontalTextAlignment="Center"
+                                       VerticalOptions="Center"
+                                       FontAttributes="Bold" />
                             </Grid>
                         </Frame>
                     </DataTemplate>
                 </CollectionView.ItemTemplate>
             </CollectionView>
+
         </VerticalStackLayout>
     </ScrollView>
 </ContentPage>

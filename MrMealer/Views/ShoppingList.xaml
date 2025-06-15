@@ -4,28 +4,34 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:viewModels="clr-namespace:MrMealer.ViewModels"
     x:Class="MrMealer.Views.ShoppingListPage"
-    Title="Shopping List">
+    Title="Shopping List"
+    BackgroundColor="{StaticResource BackgroundColor}">
 
-    <CollectionView ItemsSource="{Binding Ingredients}">
+    <CollectionView ItemsSource="{Binding Ingredients}"
+                    Margin="10"
+                    SelectionMode="None">
         <CollectionView.ItemTemplate>
             <DataTemplate>
-                <VerticalStackLayout Padding="10">
-                    <CheckBox IsChecked="{Binding Isbought}" />
-                    <Label Text="{Binding Name}">
-                        <Label.Style>
-                            <Style TargetType="Label">
-                                <Setter Property="TextColor" Value="White" />
-                                <Setter Property="TextDecorations" Value="None" />
-                                <Style.Triggers>
-                                    <DataTrigger TargetType="Label" Binding="{Binding Isbought}" Value="True">
-                                        <Setter Property="TextColor" Value="Gray" />
-                                        <Setter Property="TextDecorations" Value="Strikethrough" />
-                                    </DataTrigger>
-                                </Style.Triggers>
-                            </Style>
-                        </Label.Style>
-                    </Label>
-                </VerticalStackLayout>
+                <Frame>
+                    <HorizontalStackLayout Spacing="10" VerticalOptions="Center">
+                        <CheckBox IsChecked="{Binding Isbought}" />
+
+                        <Label Text="{Binding Name}" VerticalOptions="Center">
+                            <Label.Style>
+                                <Style TargetType="Label">
+                                    <Setter Property="TextColor" Value="{StaticResource TextColor}" />
+                                    <Setter Property="TextDecorations" Value="None" />
+                                    <Style.Triggers>
+                                        <DataTrigger TargetType="Label" Binding="{Binding Isbought}" Value="True">
+                                            <Setter Property="TextColor" Value="{StaticResource MutedText}" />
+                                            <Setter Property="TextDecorations" Value="Strikethrough" />
+                                        </DataTrigger>
+                                    </Style.Triggers>
+                                </Style>
+                            </Label.Style>
+                        </Label>
+                    </HorizontalStackLayout>
+                </Frame>
             </DataTemplate>
         </CollectionView.ItemTemplate>
     </CollectionView>

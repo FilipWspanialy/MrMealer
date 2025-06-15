@@ -1,6 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="MrMealer.MainPage">
-    <Label>hi</Label>
+             x:Class="MrMealer.MainPage"
+             Title="MrMealer">
+    <ScrollView>
+        <VerticalStackLayout Padding="20" Spacing="15" BackgroundColor="{StaticResource BackgroundColor}">
+            <Label Text="MrMealer – Twój plan, Twoje zakupy, zero stresu." Style="{StaticResource HeaderLabel}" />
+            <Label Text="Zaplanuj posiłki, a MrMealer automatycznie stworzy listę zakupów. Prosto, szybko i smacznie – wszystko w jednym miejscu." />
+        </VerticalStackLayout>
+    </ScrollView>
 </ContentPage>

@@ -10,9 +10,9 @@ public partial class PlanPage : ContentPage
 		InitializeComponent();
 		BindingContext = new PlanViewModel();
 	}
-    private async void OnDaySelected(object sender, SelectionChangedEventArgs e)
+    private async void OnDayTapped(object sender, EventArgs e)
     {
-        if (e.CurrentSelection.FirstOrDefault() is Day selectedDay)
+        if (sender is Frame frame && frame.BindingContext is Day selectedDay)
         {
             await Shell.Current.GoToAsync($"day?dayId={selectedDay.Id}");
         }

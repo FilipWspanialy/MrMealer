@@ -7,44 +7,40 @@
     xmlns:views="clr-namespace:MrMealer.Views"
     Shell.FlyoutBehavior="Flyout"
     Title="MrMealer">
-    
+
     <FlyoutItem Title="Home" Icon="home.png">
         <Tab>
-            <ShellContent 
+            <ShellContent
                 Title="Home"
-                ContentTemplate="{DataTemplate local:MainPage}" 
-                Route="mainPage" />
-        </Tab>
-    </FlyoutItem>
-    
-    <FlyoutItem Title="Plan">
-        <Tab>
-            <ShellContent 
-                Title="Plan"
-                ContentTemplate="{DataTemplate views:PlanPage}"/>
-        </Tab>
-    </FlyoutItem>
-    
-    <FlyoutItem Title="Shopping list">
-        <Tab>
-            <ShellContent 
-                Title="Shopping list"
-                ContentTemplate="{DataTemplate views:ShoppingListPage}" />
-        </Tab>
-    </FlyoutItem>
-    
-    <FlyoutItem Title="Recipes">
-        <Tab>
-            <ShellContent 
-                Title="Recipes"
-                ContentTemplate="{DataTemplate views:RecipesPage}"/>
+                Route="home"
+                ContentTemplate="{DataTemplate local:MainPage}" />
         </Tab>
     </FlyoutItem>
 
-    <FlyoutItem Title="User">
+    <FlyoutItem Title="Plan" Icon="plan.png">
         <Tab>
-            <ShellContent 
-            Title="User"/>
+            <ShellContent
+                Title="Plan"
+                Route="plan"
+                ContentTemplate="{DataTemplate views:PlanPage}" />
+        </Tab>
+    </FlyoutItem>
+
+    <FlyoutItem Title="Shopping List" Icon="shopping_list.png">
+        <Tab>
+            <ShellContent
+                Title="Shopping List"
+                Route="shoppingList"
+                ContentTemplate="{DataTemplate views:ShoppingListPage}" />
+        </Tab>
+    </FlyoutItem>
+
+    <FlyoutItem Title="Recipes" Icon="recipes.png">
+        <Tab>
+            <ShellContent
+                Title="Recipes"
+                Route="recipes"
+                ContentTemplate="{DataTemplate views:RecipesPage}" />
         </Tab>
     </FlyoutItem>
 </Shell>
