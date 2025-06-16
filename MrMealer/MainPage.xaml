@@ -8,21 +8,18 @@
     <ScrollView>
         <VerticalStackLayout Padding="30" Spacing="25" VerticalOptions="Center" HorizontalOptions="Center">
 
-            <!-- Logo / emoji welcome -->
             <Label Text="👋 Witamy w MrMealer!"
                    FontSize="32"
                    FontAttributes="Bold"
                    TextColor="{StaticResource PrimaryColor}"
                    HorizontalTextAlignment="Center" />
 
-            <!-- Slogan -->
             <Label Text="Twój plan, Twoje zakupy, zero stresu."
                    FontSize="20"
                    FontAttributes="Bold"
                    TextColor="#333"
                    HorizontalTextAlignment="Center" />
 
-            <!-- Opis -->
             <Frame BackgroundColor="White"
                    CornerRadius="20"
                    Padding="20"

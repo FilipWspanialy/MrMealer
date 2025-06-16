@@ -60,6 +60,18 @@ namespace MrMealer.ViewModels
 
         private async Task SaveRecipeAsync()
         {
+            if (string.IsNullOrWhiteSpace(RecipeName))
+            {
+                await Application.Current.MainPage.DisplayAlert("Error", "Recipe name is required.", "OK");
+                return;
+            }
+
+            if (string.IsNullOrWhiteSpace(Instructions))
+            {
+                await Application.Current.MainPage.DisplayAlert("Error", "Instructions are required.", "OK");
+                return;
+            }
+
             var validIngredients = Ingredients
                 .Where(i => i.SelectedIngredient != null && !string.IsNullOrWhiteSpace(i.Measure))
                 .Select(i => new Ingredient

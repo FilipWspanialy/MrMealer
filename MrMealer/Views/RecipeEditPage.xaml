@@ -48,29 +48,36 @@
                                Padding="12"
                                Margin="0,5">
 
-                            <HorizontalStackLayout Spacing="10" VerticalOptions="Center">
+                            <HorizontalStackLayout Spacing="10"
+                       VerticalOptions="Center"
+                       HorizontalOptions="FillAndExpand">
 
-                                <Picker WidthRequest="150"
-                                        ItemsSource="{Binding Source={x:Reference IngredientPickerPage}, Path=BindingContext.AvailableIngredients}"
-                                        ItemDisplayBinding="{Binding Name}"
-                                        SelectedItem="{Binding SelectedIngredient}" />
+                                <Picker 
+                                    ItemsSource="{Binding Source={x:Reference IngredientPickerPage}, Path=BindingContext.AvailableIngredients}"
+                                    ItemDisplayBinding="{Binding Name}"
+                                    SelectedItem="{Binding SelectedIngredient}"
+                                    HorizontalOptions="FillAndExpand" />
 
-                                <Entry Placeholder="Miara"
-                                       Text="{Binding Measure}"
-                                       WidthRequest="100"
-                                       BackgroundColor="#f3f4f6"
-                                       HeightRequest="40"/>
+                                <Entry 
+                                    Placeholder="Miara"
+                                    Text="{Binding Measure}"
+                                    WidthRequest="80"
+                                    BackgroundColor="#f3f4f6"
+                                    HeightRequest="40"
+                                    HorizontalOptions="Start" />
 
-                                <Button Text="❌"
-                                        Command="{Binding RemoveCommand}"
-                                        WidthRequest="40"
-                                        HeightRequest="40"
-                                        BackgroundColor="#ef4444"
-                                        TextColor="White"
-                                        CornerRadius="20"
-                                        FontSize="16"
-                                        Padding="0"
-                                        VerticalOptions="Center" />
+                                <Button 
+                                    Text="❌"
+                                    Command="{Binding RemoveCommand}"
+                                    WidthRequest="40"
+                                    HeightRequest="40"
+                                    BackgroundColor="#ef4444"
+                                    TextColor="White"
+                                    CornerRadius="20"
+                                    FontSize="16"
+                                    Padding="0"
+                                    VerticalOptions="Center"
+                                    HorizontalOptions="End" />
                             </HorizontalStackLayout>
                         </Frame>
                     </DataTemplate>

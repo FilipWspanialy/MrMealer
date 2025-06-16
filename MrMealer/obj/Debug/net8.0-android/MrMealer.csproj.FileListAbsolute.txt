@@ -139,8 +139,6 @@ D:\source\repos\MrMealer\MrMealer\obj\Debug\net8.0-android\android\bin\com.compa
 D:\source\repos\MrMealer\MrMealer\obj\Debug\net8.0-android\res\values\colors.xml
 D:\source\repos\MrMealer\MrMealer\obj\Debug\net8.0-android\uploadflags.txt
 D:\source\repos\MrMealer\MrMealer\obj\Debug\net8.0-android\resolvedassemblies.hash
-D:\source\repos\MrMealer\MrMealer\obj\Debug\net8.0-android\android\assets\arm64-v8a\System.Private.CoreLib.dll
-D:\source\repos\MrMealer\MrMealer\obj\Debug\net8.0-android\android\assets\armeabi-v7a\System.Private.CoreLib.dll
 D:\source\repos\MrMealer\MrMealer\obj\Debug\net8.0-android\android\assets\ar\Microsoft.Maui.Controls.resources.dll
 D:\source\repos\MrMealer\MrMealer\obj\Debug\net8.0-android\android\assets\ca\Microsoft.Maui.Controls.resources.dll
 D:\source\repos\MrMealer\MrMealer\obj\Debug\net8.0-android\android\assets\cs\Microsoft.Maui.Controls.resources.dll
@@ -387,8 +385,6 @@ D:\source\repos\MrMealer\MrMealer\obj\Debug\net8.0-android\android\assets\tr\Mic
 D:\source\repos\MrMealer\MrMealer\obj\Debug\net8.0-android\android\assets\uk\Microsoft.Maui.Controls.resources.dll
 D:\source\repos\MrMealer\MrMealer\obj\Debug\net8.0-android\android\assets\vi\Microsoft.Maui.Controls.resources.dll
 D:\source\repos\MrMealer\MrMealer\obj\Debug\net8.0-android\android\assets\WindowsBase.dll
-D:\source\repos\MrMealer\MrMealer\obj\Debug\net8.0-android\android\assets\x86\System.Private.CoreLib.dll
-D:\source\repos\MrMealer\MrMealer\obj\Debug\net8.0-android\android\assets\x86_64\System.Private.CoreLib.dll
 D:\source\repos\MrMealer\MrMealer\obj\Debug\net8.0-android\android\assets\Xamarin.Android.Glide.Annotations.dll
 D:\source\repos\MrMealer\MrMealer\obj\Debug\net8.0-android\android\assets\Xamarin.Android.Glide.DiskLruCache.dll
 D:\source\repos\MrMealer\MrMealer\obj\Debug\net8.0-android\android\assets\Xamarin.Android.Glide.dll

@@ -10,14 +10,12 @@
     <ScrollView>
         <VerticalStackLayout Padding="20" Spacing="20">
 
-            <!-- Nagłówek -->
             <Label Text="🍽️ Edytuj posiłki"
                    FontSize="26"
                    FontAttributes="Bold"
                    TextColor="{StaticResource PrimaryColor}"
                    HorizontalTextAlignment="Center" />
 
-            <!-- Lista posiłków -->
             <CollectionView ItemsSource="{Binding Meals}">
                 <CollectionView.ItemTemplate>
                     <DataTemplate>
@@ -29,13 +27,11 @@
 
                             <VerticalStackLayout Spacing="12">
 
-                                <!-- Nazwa posiłku -->
                                 <Label Text="{Binding Name}"
                                        FontAttributes="Bold"
                                        FontSize="18"
                                        TextColor="#333" />
 
-                                <!-- Wybór przepisu -->
                                 <Picker Title="Wybierz przepis"
                                         ItemsSource="{Binding Source={x:Reference DayEditPage}, Path=BindingContext.Recipes}"
                                         ItemDisplayBinding="{Binding Name}"
@@ -50,7 +46,6 @@
                 </CollectionView.ItemTemplate>
             </CollectionView>
 
-            <!-- Zapisz zmiany -->
             <Button Text="💾 Zapisz zmiany"
                     Command="{Binding SaveMealsCommand}"
                     BackgroundColor="#10b981"

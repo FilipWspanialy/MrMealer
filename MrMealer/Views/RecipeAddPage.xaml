@@ -10,14 +10,12 @@
     <ScrollView>
         <VerticalStackLayout Padding="20" Spacing="20">
 
-            <!-- Nagłówek -->
             <Label Text="Dodaj Nowy Przepis"
                    FontSize="26"
                    FontAttributes="Bold"
                    HorizontalTextAlignment="Center"
                    TextColor="{StaticResource PrimaryColor}" />
 
-            <!-- Nazwa przepisu -->
             <Entry Placeholder="Nazwa przepisu"
                    Text="{Binding RecipeName}"
                    FontSize="16"
@@ -25,7 +23,6 @@
                    TextColor="Black"
                    HeightRequest="50"/>
 
-            <!-- Instrukcje -->
             <Editor Placeholder="Instrukcje"
                     Text="{Binding Instructions}"
                     AutoSize="TextChanges"
@@ -33,13 +30,11 @@
                     TextColor="Black"
                     HeightRequest="120" />
 
-            <!-- Nagłówek składników -->
             <Label Text="🧂 Składniki:"
                    FontAttributes="Bold"
                    FontSize="18"
                    TextColor="{StaticResource PrimaryColor}" />
 
-            <!-- Lista składników -->
             <CollectionView ItemsSource="{Binding Ingredients}">
                 <CollectionView.ItemTemplate>
                     <DataTemplate>
@@ -50,39 +45,40 @@
                                Padding="12"
                                Margin="0,5">
 
-                            <HorizontalStackLayout Spacing="10" VerticalOptions="Center">
+                            <HorizontalStackLayout Spacing="10" VerticalOptions="Center" HorizontalOptions="FillAndExpand">
 
-                                <!-- Picker składnika -->
-                                <Picker WidthRequest="150"
-                                        ItemsSource="{Binding Source={x:Reference IngredientPickerPage}, Path=BindingContext.AvailableIngredients}"
-                                        ItemDisplayBinding="{Binding Name}"
-                                        SelectedItem="{Binding SelectedIngredient}" />
+                                <Picker 
+                                    ItemsSource="{Binding Source={x:Reference IngredientPickerPage}, Path=BindingContext.AvailableIngredients}"
+                                    ItemDisplayBinding="{Binding Name}"
+                                    SelectedItem="{Binding SelectedIngredient}"
+                                    HorizontalOptions="FillAndExpand" />
 
-                                <!-- Ilość / miara -->
-                                <Entry Placeholder="Miara"
-                                       Text="{Binding Measure}"
-                                       WidthRequest="100"
-                                       BackgroundColor="#f3f4f6"
-                                       HeightRequest="40"/>
+                                <Entry 
+                                    Placeholder="Miara"
+                                    Text="{Binding Measure}"
+                                    WidthRequest="80"
+                                    BackgroundColor="#f3f4f6"
+                                    HeightRequest="40"
+                                    HorizontalOptions="Start" />
 
-                                <!-- Usuń składnik -->
-                                <Button Text="❌"
-                                        Command="{Binding RemoveCommand}"
-                                        WidthRequest="40"
-                                        HeightRequest="40"
-                                        BackgroundColor="#ef4444"
-                                        TextColor="White"
-                                        CornerRadius="20"
-                                        FontSize="16"
-                                        Padding="0"
-                                        VerticalOptions="Center" />
+                                <Button 
+                                    Text="❌"
+                                    Command="{Binding RemoveCommand}"
+                                    WidthRequest="40"
+                                    HeightRequest="40"
+                                    BackgroundColor="#ef4444"
+                                    TextColor="White"
+                                    CornerRadius="20"
+                                    FontSize="16"
+                                    Padding="0"
+                                    VerticalOptions="Center"
+                                    HorizontalOptions="End" />
                             </HorizontalStackLayout>
                         </Frame>
                     </DataTemplate>
                 </CollectionView.ItemTemplate>
             </CollectionView>
 
-            <!-- Dodaj składnik -->
             <Button Text="➕ Dodaj Składnik"
                     Command="{Binding AddIngredientCommand}"
                     BackgroundColor="{StaticResource PrimaryColor}"
@@ -91,7 +87,6 @@
                     FontAttributes="Bold"
                     HeightRequest="50" />
 
-            <!-- Zapisz przepis -->
             <Button Text="💾 Zapisz Przepis"
                     Command="{Binding SaveRecipeCommand}"
                     BackgroundColor="#10b981"

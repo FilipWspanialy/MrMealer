@@ -94,6 +94,18 @@ public class RecipeEditViewModel : INotifyPropertyChanged
 
     private async Task SaveChangesAsync()
     {
+        if (string.IsNullOrWhiteSpace(RecipeName))
+        {
+            await Application.Current.MainPage.DisplayAlert("Error", "Recipe name is required.", "OK");
+            return;
+        }
+
+        if (string.IsNullOrWhiteSpace(Instructions))
+        {
+            await Application.Current.MainPage.DisplayAlert("Error", "Instructions are required.", "OK");
+            return;
+        }
+
         if (string.IsNullOrWhiteSpace(RecipeName) || Ingredients.All(i => i.SelectedIngredient == null))
         {
             await Application.Current.MainPage.DisplayAlert("Error", "Please fill out recipe name and at least one ingredient.", "OK");

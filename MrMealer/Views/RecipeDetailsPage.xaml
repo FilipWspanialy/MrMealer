@@ -9,7 +9,6 @@
     <ScrollView>
         <VerticalStackLayout Padding="20" Spacing="20">
 
-            <!-- Edit/Delete buttons -->
             <HorizontalStackLayout Spacing="12"
                                    IsVisible="{Binding IsUserCreated}"
                                    HorizontalOptions="Center">
@@ -28,21 +27,18 @@
                         HeightRequest="45" />
             </HorizontalStackLayout>
 
-            <!-- Recipe Image -->
             <Frame HasShadow="True" CornerRadius="16" Padding="0">
                 <Image Source="{Binding Recipe.ImageUrl}"
                        HeightRequest="200"
                        Aspect="AspectFill"/>
             </Frame>
 
-            <!-- Recipe Name -->
             <Label Text="{Binding Recipe.Name}"
                    FontSize="26"
                    FontAttributes="Bold"
                    TextColor="{StaticResource PrimaryColor}"
                    HorizontalTextAlignment="Center" />
 
-            <!-- Ingredients -->
             <Frame BackgroundColor="White"
                    CornerRadius="16"
                    HasShadow="True"
@@ -66,7 +62,6 @@
                 </VerticalStackLayout>
             </Frame>
 
-            <!-- Instructions -->
             <Frame BackgroundColor="White"
                    CornerRadius="16"
                    HasShadow="True"
