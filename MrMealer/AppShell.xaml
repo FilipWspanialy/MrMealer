@@ -1,14 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<Shell
-    x:Class="MrMealer.AppShell"
-    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
-    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    xmlns:local="clr-namespace:MrMealer"
-    xmlns:views="clr-namespace:MrMealer.Views"
-    Shell.FlyoutBehavior="Flyout"
-    Title="MrMealer">
+<Shell x:Class="MrMealer.AppShell"
+       xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+       xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+       xmlns:views="clr-namespace:MrMealer.Views"
+       xmlns:local="clr-namespace:MrMealer"
+       Title="MrMealer"
+       Shell.FlyoutBehavior="Flyout"
+       FlyoutBackgroundColor="White"
+       ForegroundColor="{StaticResource PrimaryColor}"
+       UnselectedColor="#999"
+       Shell.TabBarBackgroundColor="White">
 
-    <FlyoutItem Title="Home" Icon="home.png">
+    <FlyoutItem Title="Home" Icon="home_svgrepo_com.png">
         <Tab>
             <ShellContent
                 Title="Home"
@@ -17,7 +20,7 @@
         </Tab>
     </FlyoutItem>
 
-    <FlyoutItem Title="Plan" Icon="plan.png">
+    <FlyoutItem Title="Plan" Icon="meal_plan_svgrepo_com.png">
         <Tab>
             <ShellContent
                 Title="Plan"
@@ -26,7 +29,7 @@
         </Tab>
     </FlyoutItem>
 
-    <FlyoutItem Title="Shopping List" Icon="shopping_list.png">
+    <FlyoutItem Title="Shopping List" Icon="shopping_basket_blank_svgrepo_com.png">
         <Tab>
             <ShellContent
                 Title="Shopping List"
@@ -35,7 +38,7 @@
         </Tab>
     </FlyoutItem>
 
-    <FlyoutItem Title="Recipes" Icon="recipes.png">
+    <FlyoutItem Title="Recipes" Icon="recipe_svgrepo_com.png">
         <Tab>
             <ShellContent
                 Title="Recipes"

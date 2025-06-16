@@ -14,6 +14,9 @@
     <MauiXaml Update="Views\DayPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
+    <MauiXaml Update="Views\LoadingPage.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
     <MauiXaml Update="Views\PlanPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>

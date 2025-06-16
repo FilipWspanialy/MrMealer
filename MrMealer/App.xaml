@@ -7,11 +7,12 @@
         <ResourceDictionary>
 
             <!-- Kolory -->
-            <Color x:Key="PrimaryColor">#3B82F6</Color>
             <Color x:Key="SecondaryColor">#60A5FA</Color>
             <Color x:Key="BackgroundColor">#F9FAFB</Color>
             <Color x:Key="TextColor">#111827</Color>
             <Color x:Key="MutedText">#6B7280</Color>
+            <Color x:Key="PrimaryColor">#4CAF50</Color>
+
 
             <!-- Style Labeli -->
             <Style TargetType="Label">

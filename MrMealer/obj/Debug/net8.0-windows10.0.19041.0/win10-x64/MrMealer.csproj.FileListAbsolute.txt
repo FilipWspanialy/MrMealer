@@ -199,6 +199,8 @@ D:\source\repos\MrMealer\MrMealer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64
 D:\source\repos\MrMealer\MrMealer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\mauifont.stamp
 D:\source\repos\MrMealer\MrMealer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf
 D:\source\repos\MrMealer\MrMealer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Semibold.ttf
+D:\source\repos\MrMealer\MrMealer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\recipe_svgrepo_com.scale-100.png
+D:\source\repos\MrMealer\MrMealer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\meal_plan_svgrepo_com.scale-100.png
 D:\source\repos\MrMealer\MrMealer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png
 D:\source\repos\MrMealer\MrMealer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png
 D:\source\repos\MrMealer\MrMealer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png
@@ -280,3 +282,5 @@ D:\source\repos\MrMealer\MrMealer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64
 D:\source\repos\MrMealer\MrMealer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MultipleQualifiersPerDimensionFound.txt
 D:\source\repos\MrMealer\MrMealer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MrMealer.genpublishdeps.cache
 D:\source\repos\MrMealer\MrMealer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\ProjectArchitectures.txt
+D:\source\repos\MrMealer\MrMealer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\home_svgrepo_com.scale-100.png
+D:\source\repos\MrMealer\MrMealer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\shopping_basket_blank_svgrepo_com.scale-100.png

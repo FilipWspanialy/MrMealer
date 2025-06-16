@@ -214,6 +214,18 @@
     <AppxPackagedFile Include="D:\source\repos\MrMealer\MrMealer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
       <PackagePath>dotnet_bot.scale-400.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\source\repos\MrMealer\MrMealer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\home_svgrepo_com.scale-100.png">
+      <PackagePath>home_svgrepo_com.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\source\repos\MrMealer\MrMealer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\meal_plan_svgrepo_com.scale-100.png">
+      <PackagePath>meal_plan_svgrepo_com.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\source\repos\MrMealer\MrMealer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\recipe_svgrepo_com.scale-100.png">
+      <PackagePath>recipe_svgrepo_com.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\source\repos\MrMealer\MrMealer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\shopping_basket_blank_svgrepo_com.scale-100.png">
+      <PackagePath>shopping_basket_blank_svgrepo_com.scale-100.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\filip\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.44\lib\net8.0\Microsoft.Windows.SDK.NET.dll">
       <PackagePath>Microsoft.Windows.SDK.NET.dll</PackagePath>
     </AppxPackagedFile>

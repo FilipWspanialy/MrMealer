@@ -11,7 +11,7 @@ namespace MrMealer
         public App(AppDbContext db)
         {
             InitializeComponent();
-            MainPage = new AppShell();
+            MainPage = new Views.LoadingPage();
             LoadRecipes();
         }
 

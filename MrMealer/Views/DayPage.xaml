@@ -4,34 +4,61 @@
              xmlns:viewModels="clr-namespace:MrMealer.ViewModels"
              x:Class="MrMealer.Views.DayPage"
              x:Name="DayEditPage"
-             Title="Edit Day"
+             Title="Edytuj Dzień"
              BackgroundColor="{StaticResource BackgroundColor}">
 
     <ScrollView>
-        <VerticalStackLayout Padding="20" Spacing="15">
+        <VerticalStackLayout Padding="20" Spacing="20">
 
-            <Label Text="Edit meals for the day"
-                   Style="{StaticResource HeaderLabel}" />
+            <!-- Nagłówek -->
+            <Label Text="🍽️ Edytuj posiłki"
+                   FontSize="26"
+                   FontAttributes="Bold"
+                   TextColor="{StaticResource PrimaryColor}"
+                   HorizontalTextAlignment="Center" />
 
+            <!-- Lista posiłków -->
             <CollectionView ItemsSource="{Binding Meals}">
                 <CollectionView.ItemTemplate>
                     <DataTemplate>
-                        <Frame HasShadow="False">
-                            <VerticalStackLayout Spacing="10">
-                                <Label Text="{Binding Name}" FontAttributes="Bold" />
+                        <Frame BackgroundColor="White"
+                               CornerRadius="16"
+                               Padding="16"
+                               Margin="0,8"
+                               HasShadow="True">
 
-                                <Picker Title="Select recipe"
+                            <VerticalStackLayout Spacing="12">
+
+                                <!-- Nazwa posiłku -->
+                                <Label Text="{Binding Name}"
+                                       FontAttributes="Bold"
+                                       FontSize="18"
+                                       TextColor="#333" />
+
+                                <!-- Wybór przepisu -->
+                                <Picker Title="Wybierz przepis"
                                         ItemsSource="{Binding Source={x:Reference DayEditPage}, Path=BindingContext.Recipes}"
                                         ItemDisplayBinding="{Binding Name}"
-                                        SelectedItem="{Binding SelectedRecipe}" />
+                                        SelectedItem="{Binding SelectedRecipe}"
+                                        FontSize="14"
+                                        BackgroundColor="#f3f4f6"
+                                        TextColor="Black"
+                                        HeightRequest="40"/>
                             </VerticalStackLayout>
                         </Frame>
                     </DataTemplate>
                 </CollectionView.ItemTemplate>
             </CollectionView>
 
-            <Button Text="Save Changes"
-                    Command="{Binding SaveMealsCommand}" />
+            <!-- Zapisz zmiany -->
+            <Button Text="💾 Zapisz zmiany"
+                    Command="{Binding SaveMealsCommand}"
+                    BackgroundColor="#10b981"
+                    TextColor="White"
+                    FontAttributes="Bold"
+                    HeightRequest="50"
+                    CornerRadius="20" />
+
         </VerticalStackLayout>
     </ScrollView>
 </ContentPage>

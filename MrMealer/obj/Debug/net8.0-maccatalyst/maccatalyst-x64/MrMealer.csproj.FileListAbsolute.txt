@@ -368,6 +368,9 @@ D:\source\repos\MrMealer\MrMealer\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\r
 D:\source\repos\MrMealer\MrMealer\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\appicon20x20@3x.png
 D:\source\repos\MrMealer\MrMealer\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\appicon20x20@2x.png
 D:\source\repos\MrMealer\MrMealer\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\Contents.json
+D:\source\repos\MrMealer\MrMealer\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\shopping_list_svgrepo_com.png
+D:\source\repos\MrMealer\MrMealer\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\recipe_svgrepo_com.png
+D:\source\repos\MrMealer\MrMealer\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\meal_plan_svgrepo_com.png
 D:\source\repos\MrMealer\MrMealer\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\dotnet_bot@3x.png
 D:\source\repos\MrMealer\MrMealer\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\dotnet_bot@2x.png
 D:\source\repos\MrMealer\MrMealer\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\dotnet_bot.png
