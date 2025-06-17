@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:viewModels="clr-namespace:MrMealer.ViewModels"
              x:Class="MrMealer.Views.RecipeDetailsPage"
-             Title="Szczegóły Przepisu"
+             Title="Details of recipe"
              BackgroundColor="{StaticResource BackgroundColor}">
 
     <ScrollView>
@@ -12,14 +12,14 @@
             <HorizontalStackLayout Spacing="12"
                                    IsVisible="{Binding IsUserCreated}"
                                    HorizontalOptions="Center">
-                <Button Text="✏️ Edytuj"
+                <Button Text="✏️ Edit"
                         Command="{Binding EditCommand}"
                         BackgroundColor="{StaticResource PrimaryColor}"
                         TextColor="White"
                         CornerRadius="20"
                         HeightRequest="45" />
 
-                <Button Text="🗑️ Usuń"
+                <Button Text="🗑️ Delete"
                         Command="{Binding DeleteCommand}"
                         BackgroundColor="#ef4444"
                         TextColor="White"
@@ -44,7 +44,7 @@
                    HasShadow="True"
                    Padding="15">
                 <VerticalStackLayout Spacing="10">
-                    <Label Text="🧂 Składniki"
+                    <Label Text="🧂 Ingredients"
                            FontAttributes="Bold"
                            FontSize="18"
                            TextColor="#333" />
@@ -67,7 +67,7 @@
                    HasShadow="True"
                    Padding="15">
                 <VerticalStackLayout Spacing="10">
-                    <Label Text="📖 Instrukcje"
+                    <Label Text="📖 Instructions"
                            FontAttributes="Bold"
                            FontSize="18"
                            TextColor="#333" />

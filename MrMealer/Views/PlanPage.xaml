@@ -2,19 +2,19 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MrMealer.Views.PlanPage"
-             Title="Plan tygodnia"
+             Title="Plan"
              BackgroundColor="{StaticResource BackgroundColor}">
 
     <ScrollView>
         <VerticalStackLayout Padding="20" Spacing="20">
 
-            <Label Text="🗓️ Twój plan posiłków"
+            <Label Text="🗓️ Your plan"
                    FontSize="26"
                    FontAttributes="Bold"
                    HorizontalTextAlignment="Center"
                    TextColor="{StaticResource PrimaryColor}" />
 
-            <Button Text="➕ Dodaj tydzień"
+            <Button Text="➕ Add next week"
                     Command="{Binding AddWeekCommand}"
                     BackgroundColor="{StaticResource PrimaryColor}"
                     TextColor="White"

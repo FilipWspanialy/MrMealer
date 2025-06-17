@@ -284,3 +284,8 @@ D:\source\repos\MrMealer\MrMealer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64
 D:\source\repos\MrMealer\MrMealer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\ProjectArchitectures.txt
 D:\source\repos\MrMealer\MrMealer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\home_svgrepo_com.scale-100.png
 D:\source\repos\MrMealer\MrMealer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\shopping_basket_blank_svgrepo_com.scale-100.png
+D:\source\repos\MrMealer\MrMealer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\chef_svgrepo_comSplashScreen.scale-100.png
+D:\source\repos\MrMealer\MrMealer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\chef_svgrepo_comSplashScreen.scale-125.png
+D:\source\repos\MrMealer\MrMealer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\chef_svgrepo_comSplashScreen.scale-150.png
+D:\source\repos\MrMealer\MrMealer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\chef_svgrepo_comSplashScreen.scale-200.png
+D:\source\repos\MrMealer\MrMealer\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\chef_svgrepo_comSplashScreen.scale-400.png

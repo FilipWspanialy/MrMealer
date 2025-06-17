@@ -4,33 +4,33 @@
              xmlns:viewModels="clr-namespace:MrMealer.ViewModels"
              x:Class="MrMealer.Views.RecipeAddPage"
              x:Name="IngredientPickerPage"
-             Title="Dodaj Przepis"
+             Title="Add your recipe"
              BackgroundColor="{StaticResource BackgroundColor}">
 
     <ScrollView>
         <VerticalStackLayout Padding="20" Spacing="20">
 
-            <Label Text="Dodaj Nowy Przepis"
+            <Label Text="Add recipe"
                    FontSize="26"
                    FontAttributes="Bold"
                    HorizontalTextAlignment="Center"
                    TextColor="{StaticResource PrimaryColor}" />
 
-            <Entry Placeholder="Nazwa przepisu"
+            <Entry Placeholder="Recipe name"
                    Text="{Binding RecipeName}"
                    FontSize="16"
                    BackgroundColor="White"
                    TextColor="Black"
                    HeightRequest="50"/>
 
-            <Editor Placeholder="Instrukcje"
+            <Editor Placeholder="Instructions"
                     Text="{Binding Instructions}"
                     AutoSize="TextChanges"
                     BackgroundColor="White"
                     TextColor="Black"
                     HeightRequest="120" />
 
-            <Label Text="🧂 Składniki:"
+            <Label Text="🧂 Ingredients:"
                    FontAttributes="Bold"
                    FontSize="18"
                    TextColor="{StaticResource PrimaryColor}" />
@@ -54,7 +54,7 @@
                                     HorizontalOptions="FillAndExpand" />
 
                                 <Entry 
-                                    Placeholder="Miara"
+                                    Placeholder="Measure"
                                     Text="{Binding Measure}"
                                     WidthRequest="80"
                                     BackgroundColor="#f3f4f6"
@@ -79,7 +79,7 @@
                 </CollectionView.ItemTemplate>
             </CollectionView>
 
-            <Button Text="➕ Dodaj Składnik"
+            <Button Text="➕ Add ingredient"
                     Command="{Binding AddIngredientCommand}"
                     BackgroundColor="{StaticResource PrimaryColor}"
                     TextColor="White"
@@ -87,7 +87,7 @@
                     FontAttributes="Bold"
                     HeightRequest="50" />
 
-            <Button Text="💾 Zapisz Przepis"
+            <Button Text="💾 Save recipe"
                     Command="{Binding SaveRecipeCommand}"
                     BackgroundColor="#10b981"
                     TextColor="White"

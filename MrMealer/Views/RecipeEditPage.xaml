@@ -4,19 +4,19 @@
              xmlns:viewModels="clr-namespace:MrMealer.ViewModels"
              x:Class="MrMealer.Views.RecipeEditPage"
              x:Name="IngredientPickerPage"
-             Title="Edytuj Przepis"
+             Title="Edit recipe"
              BackgroundColor="{StaticResource BackgroundColor}">
 
     <ScrollView>
         <VerticalStackLayout Padding="20" Spacing="20">
 
-            <Label Text="Edytuj Przepis"
+            <Label Text="Edit recipe"
                    FontSize="26"
                    FontAttributes="Bold"
                    HorizontalOptions="Center"
                    TextColor="{StaticResource PrimaryColor}" />
 
-            <Entry Placeholder="Nazwa przepisu"
+            <Entry Placeholder="Recipe name"
                    Text="{Binding RecipeName}"
                    FontSize="16"
                    BackgroundColor="White"
@@ -24,7 +24,7 @@
                    Margin="0,5"
                    HeightRequest="50"/>
 
-            <Editor Placeholder="Instrukcje"
+            <Editor Placeholder="Instructions"
                     Text="{Binding Instructions}"
                     AutoSize="TextChanges"
                     BackgroundColor="White"
@@ -32,7 +32,7 @@
                     Margin="0,5"
                     HeightRequest="120" />
 
-            <Label Text="Składniki:"
+            <Label Text="Ingredients:"
                    FontAttributes="Bold"
                    FontSize="18"
                    TextColor="{StaticResource PrimaryColor}"
@@ -59,7 +59,7 @@
                                     HorizontalOptions="FillAndExpand" />
 
                                 <Entry 
-                                    Placeholder="Miara"
+                                    Placeholder="Measure"
                                     Text="{Binding Measure}"
                                     WidthRequest="80"
                                     BackgroundColor="#f3f4f6"
@@ -84,7 +84,7 @@
                 </CollectionView.ItemTemplate>
             </CollectionView>
 
-            <Button Text="➕ Dodaj Składnik"
+            <Button Text="➕ Add ingredient"
                     Command="{Binding AddIngredientCommand}"
                     BackgroundColor="{StaticResource PrimaryColor}"
                     TextColor="White"
@@ -92,7 +92,7 @@
                     FontAttributes="Bold"
                     HeightRequest="50" />
 
-            <Button Text="💾 Zapisz Przepis"
+            <Button Text="💾 Save recipe"
                     Command="{Binding SaveChangesCommand}"
                     BackgroundColor="#10b981"
                     TextColor="White"
